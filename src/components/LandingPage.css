@@ -67,7 +67,12 @@
   position: relative;
 }
 
+.rfm-marquee {
+  height: 30rem !important;
+}
+
 .rfm-marquee-container {
+  height: 30rem !important;
   overflow-x: visible !important;
 }
 
@@ -92,4 +97,49 @@ th {
 
 td {
   font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .LPSection {
+    flex-direction: column;
+  }
+
+  .LPInner {
+    height: unset;
+    min-height: unset;
+    border: 1px solid red;
+  }
+
+  .LPInner:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    height: 25rem;
+    margin-right: 0rem;
+  }
+
+  .LPInner:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 30rem;
+  }
+
+  .rfm-marquee {
+    height: unset !important;
+  }
+
+  .rfm-marquee-container {
+    height: unset !important;
+    overflow-x: visible !important;
+  }
+
+  .marqueeImg {
+    width: 20rem;
+    margin: 0rem 1rem;
+    border-radius: 0.5rem;
+    border: 5px solid white;
+  }
 }
