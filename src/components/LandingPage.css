@@ -1,3 +1,14 @@
+.LandingPageContainer::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(241, 190, 181, 0.6); /* Change the color and opacity as needed */
+  }
+
 .LandingPageContainer{
     width: 100%;
     display: flex;
@@ -5,7 +16,9 @@
     align-items: center;
     height: 100vh;
     min-height: 30rem;
-    background-color: #f2e4e2;
+    background: url(placeholder.png) no-repeat center fixed;
+    background-size: cover;
+    
 }
 
 .LandingPageWrapper {
