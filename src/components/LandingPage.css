@@ -1,0 +1,17 @@
+.LandingPageContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-height: 30rem;
+    background-color: #f2e4e2;
+}
+
+.LandingPageWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

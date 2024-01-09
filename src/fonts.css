@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Mitchel";
+  src: url("../public/fonts/Mitchel.otf");
+}
+
+.title {
+  font-family: "Mitchel";
+  font-size: 8rem;
+  font-weight: 600;
+}
+
+.btn {
+  border: 2px solid #e7cfcb;
+  padding: 1rem 1.5rem;
+  width: fit-content;
+  cursor: pointer;
+  background-color: #e7cfcb;
+  transition: all 0.3s ease-in-out;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #ebb6ad;
+  border: 2px solid #ebb6ad;
+}
