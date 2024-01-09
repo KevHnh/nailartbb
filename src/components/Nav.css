@@ -1,0 +1,38 @@
+.NavContainer {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fa9786;
+  z-index: 100;
+}
+
+.NavWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 80rem;
+  margin: 0rem 2rem;
+}
+
+.NavSection {
+  display: flex;
+  padding: 1.5rem 0rem;
+  gap: 1.5rem;
+}
+
+.NavItem {
+  font-family: "LondrinaSolid";
+  color: white;
+  font-size: 1.75rem;
+  cursor: pointer;
+}
+
+.logo {
+  background-color: white;
+  padding: 0 0.5rem;
+  border-radius: 0.5rem;
+  color: #fa9786;
+}

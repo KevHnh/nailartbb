@@ -1,47 +1,60 @@
 @font-face {
-  font-family: "Mitchel";
-  src: url("../public/fonts/Mitchel.otf");
+  font-family: "LondrinaSolid";
+  src: url("../public/fonts/LondrinaSolid.otf");
 }
 
 .title {
-  /* font-family: "Mitchel"; */
-  font-size: 8rem;
+  font-family: "LondrinaSolid";
+  font-size: 7rem;
   font-weight: 600;
+  color: white;
   animation: appear 2s;
   animation-fill-mode: forwards;
+  white-space: nowrap;
+}
+
+.header {
+  font-family: "LondrinaSolid";
+  font-size: 3rem;
+  font-weight: 500;
+  color: white;
+  white-space: nowrap;
 }
 
 .btn {
-  border: 2px solid #f2e4e2;
+  font-family: "LondrinaSolid";
+  font-size: 2rem;
   padding: 1rem 1.5rem;
   width: fit-content;
   cursor: pointer;
   background-color: #ebb6ad;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
   border-radius: 0.5rem;
   color: white;
   animation: appear 2s;
   animation-fill-mode: forwards;
+  white-space: nowrap;
+}
+
+.btn:hover .btnArrow {
+  transform: translate(0.5rem);
 }
 
 .btn:hover {
-  background-color: #e7cfcb;
-  border: 2px solid #ebb6ad;
-  color: #ebb6ad;
-  font-weight: bold;
+  box-shadow: inset 22rem 0 0 0 #D47F70;
 }
 
 @keyframes appear {
   0% {
-      opacity: 0;
-      transform-origin: 50% 50%;
-      transform: scale(2);
-      filter: blur(100px)
+    opacity: 0;
+    transform-origin: 50% 50%;
+    transform: scale(2);
+    filter: blur(100px);
   }
   100% {
-      opacity: 1;
-      transform-origin: 50% 50%;
-      transform: scale(1);
-      filter: blur(0px)
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(1);
+    filter: blur(0px);
   }
 }

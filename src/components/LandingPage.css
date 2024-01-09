@@ -1,30 +1,95 @@
-.LandingPageContainer::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(241, 190, 181, 0.6); /* Change the color and opacity as needed */
-  }
-
-.LandingPageContainer{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    min-height: 30rem;
-    background: url(placeholder.png) no-repeat center fixed;
-    background-size: cover;
-    
+.LandingPageContainer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fa9786;
 }
 
 .LandingPageWrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  position: relative;
+  width: 100%;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem 2rem;
+  overflow: hidden;
+  gap: 10rem;
+}
+
+.btnArrow {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.MarqueeContainer {
+  display: flex;
+  justify-content: center;
+  width: 25rem;
+}
+
+.LPSection {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  width: 100%;
+}
+
+.LPSectionBorder {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  padding: 5rem;
+  background-color: #d47f70;
+  gap: 3rem;
+}
+
+.LPInner {
+  height: 100vh;
+  min-height: 50rem;
+}
+
+.LPInner:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 10;
+  margin-right: 5rem;
+}
+
+.LPInner:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.rfm-marquee-container {
+  overflow-x: visible !important;
+}
+
+.marqueeImg {
+  margin: 0rem 5rem;
+  border-radius: 0.5rem;
+  border: 5px solid white;
+}
+
+.LPSectionBorder * {
+  color: white;
+}
+
+table {
+  font-family: "LondrinaSolid";
+  text-align: left;
+}
+
+th {
+  font-size: 2rem;
+}
+
+td {
+  font-size: 1.5rem;
 }
