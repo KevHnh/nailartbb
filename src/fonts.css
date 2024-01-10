@@ -8,8 +8,6 @@
   font-size: 7rem;
   font-weight: 600;
   color: white;
-  animation: appear 2s;
-  animation-fill-mode: forwards;
   white-space: nowrap;
 }
 
@@ -31,8 +29,6 @@
   transition: all 0.5s ease-in-out;
   border-radius: 0.5rem;
   color: white;
-  animation: appear 2s;
-  animation-fill-mode: forwards;
   white-space: nowrap;
 }
 
@@ -44,11 +40,50 @@
   box-shadow: inset 22rem 0 0 0 #D47F70;
 }
 
+.tableBtn {
+  font-family: "LondrinaSolid";
+  font-size: 1.5rem;
+  padding: .75rem 1.5rem;
+  width: fit-content;
+  cursor: pointer;
+  background-color: #ffffff;
+  transition: all 0.5s ease-in-out;
+  border-radius: 0.5rem;
+  color: #FA9786 !important;
+  white-space: nowrap;
+}
+
+.tableBtn:hover {
+  box-shadow: inset 22rem 0 0 0 #7b453b;
+}
+
 @keyframes appear {
   0% {
-    filter: blur(100px);
+    filter: blur(10px);
   }
   100% {
     filter: blur(0px);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .title {
+    font-size: 7rem;
+    font-weight: 600;
+  }
+  
+  .header {
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+  
+  .btn {
+    font-size: 2rem;
+    padding: 1rem 1.5rem;
+  }
+
+  .tableBtn {
+    font-size: 1.25rem;
+    padding: .5rem 1.25rem;
   }
 }
