@@ -19,6 +19,20 @@
   white-space: nowrap;
 }
 
+.sub1 {
+  font-family: "LondrinaSolid";
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+}
+
+.sub2 {
+  font-family: "LondrinaSolid";
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: white;
+}
+
 .btn {
   font-family: "LondrinaSolid";
   font-size: 2rem;
@@ -86,4 +100,13 @@
     font-size: 1.25rem;
     padding: .5rem 1.25rem;
   }
+
+  .sub1 {
+    font-size: 1.75rem;
+  }
+  
+  .sub2 {
+    font-size: 1.25rem;
+  }
+  
 }

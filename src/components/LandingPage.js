@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from "react";
 import "./LandingPage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight, faPlus } from "@fortawesome/free-solid-svg-icons";
 import Marquee from "react-fast-marquee";
 import Nav from "./Nav";
+import FAQData from "./data/FAQ.json";
 
 function LandingPage() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [activeIndex, setActiveIndex] = useState(null);
 
   useEffect(() => {
     console.log(screenWidth);
@@ -19,6 +21,10 @@ function LandingPage() {
       window.removeEventListener("resize", handleResize);
     };
   }, [screenWidth]);
+
+  function toggleAnswer(index) {
+    setActiveIndex(activeIndex === index ? null : index);
+  }
 
   return (
     <div className="LandingPageContainer">
@@ -34,7 +40,10 @@ function LandingPage() {
           </div>
           <div className="LPInner">
             <div className="MarqueeContainer marquee1">
-              <Marquee direction={screenWidth <= 1000 ? "right" : "up"}>
+              <Marquee
+                direction={screenWidth <= 1000 ? "right" : "up"}
+                pauseOnClick="true"
+              >
                 <img
                   className="marqueeImg"
                   src={
@@ -63,7 +72,7 @@ function LandingPage() {
             </div>
             {screenWidth >= 1000 ? (
               <div className="MarqueeContainer">
-                <Marquee direction="down">
+                <Marquee direction="down" pauseOnClick="true">
                   <img
                     className="marqueeImg"
                     src={
@@ -156,6 +165,34 @@ function LandingPage() {
                 </tr>
               </tbody>
             </table>
+          </div>
+        </div>
+        <div id="FAQ" className="LPSection">
+          <div className="LPSectionBorder">
+            <div className="header">FAQ</div>
+            <div className="FAQTable">
+              {FAQData.map((item, index) => (
+                <div
+                  key={index}
+                  className="FAQItem"
+                  onClick={() => toggleAnswer(index)}
+                >
+                  <div className="FAQQuestion">
+                    <div className="sub1">{item.Q}</div>
+                    <div className="sub1">
+                      <FontAwesomeIcon icon={faPlus} />
+                    </div>
+                  </div>
+                  <div
+                    className={`FAQAnswer sub2 ${
+                      activeIndex === index ? "displayBlock" : "displayNone"
+                    }`}
+                  >
+                    {item.A}
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>

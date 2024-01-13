@@ -53,8 +53,8 @@ function Nav() {
           <a href="#Pricing" className="NavItem">
             Pricing
           </a>
-          <a className="NavItem">About</a>
-          <a className="NavItem">FAQ</a>
+          <a href="#FAQ" className="NavItem">FAQ</a>
+          <a className="NavItem">Contact</a>
           <a className="NavItem">
             <FontAwesomeIcon icon={faInstagram} />
           </a>

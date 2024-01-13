@@ -35,7 +35,7 @@
   justify-content: space-between;
   overflow: hidden;
   width: 100%;
-  padding: 0rem 1rem;
+  padding: 0rem 1.5rem;
 }
 
 .LPSectionBorder {
@@ -107,6 +107,33 @@ td {
   width: 10%;
 }
 
+.FAQTable {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.FAQQuestion {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  border-bottom: 3px solid white;
+  padding: 1.5rem 0rem;
+  padding-top: 0rem;
+}
+
+.FAQAnswer {
+  padding: 1.5rem 0rem;
+}
+
+.displayBlock {
+  display: flex;
+}
+
+.displayNone {
+  display: none;
+}
+
 @media screen and (max-width: 1000px) {
   .LPSection {
     flex-direction: column;
@@ -128,7 +155,7 @@ td {
     justify-content: unset;
     align-items: center;
     z-index: 10;
-    height: 25rem;
+    height: 20rem;
     margin-right: 0rem;
     padding-top: 7rem;
   }
@@ -165,4 +192,18 @@ td {
     font-size: 1.25rem;
     padding-bottom: 2rem;
   }
+
+  .FAQTable {
+    gap: 1.2rem;
+  }
+  
+
+  .FAQQuestion {
+    padding: 1.2rem 0rem;
+  }
+  
+  .FAQAnswer {
+    padding: 1.2rem 0rem;
+  }
+  
 }
