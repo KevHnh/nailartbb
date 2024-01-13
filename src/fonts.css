@@ -68,7 +68,7 @@
 
 @media screen and (max-width: 1000px) {
   .title {
-    font-size: 7rem;
+    font-size: 6rem;
     font-weight: 600;
   }
   
@@ -78,7 +78,7 @@
   }
   
   .btn {
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding: 1rem 1.5rem;
   }
 
