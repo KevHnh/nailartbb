@@ -21,7 +21,6 @@ function LandingPage() {
   const [activeIndex, setActiveIndex] = useState(null);
 
   useEffect(() => {
-    console.log(screenWidth);
     const handleResize = () => {
       setScreenWidth(window.innerWidth);
     };
@@ -57,15 +56,18 @@ function LandingPage() {
                 <img className="marqueeImg" src={img2} />
                 <img className="marqueeImg" src={img3} />
                 <img className="marqueeImg" src={img4} />
+                <img className="marqueeImg" src={img5} />
               </Marquee>
             </div>
             {screenWidth >= 1000 ? (
               <div className="MarqueeContainer">
                 <Marquee direction="down" pauseOnClick="true">
-                  <img className="marqueeImg" src={img5} />
                   <img className="marqueeImg" src={img6} />
                   <img className="marqueeImg" src={img7} />
                   <img className="marqueeImg" src={img8} />
+                  <img className="marqueeImg" src={img9} />
+                  <img className="marqueeImg" src={img10} />
+                  <img className="marqueeImg" src={img11} />
                 </Marquee>
               </div>
             ) : (

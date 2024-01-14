@@ -10,6 +10,7 @@ function Nav() {
 
   function redirect(path) {
     navigate(path);
+    window.scroll(0, 0);
   }
 
   useEffect(() => {
@@ -62,7 +63,9 @@ function Nav() {
           <a className="NavItem" onClick={() => redirect("FAQ")}>
             FAQ
           </a>
-          <a className="NavItem">Contact</a>
+          <a className="NavItem" onClick={() => redirect("Policies")}>
+            Policies
+          </a>
           <a className="NavItem">
             <FontAwesomeIcon icon={faInstagram} />
           </a>

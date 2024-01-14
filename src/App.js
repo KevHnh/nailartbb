@@ -5,6 +5,7 @@ import LandingPage from "./components/LandingPage/LandingPage";
 import Nav from "./components/Nav/Nav";
 import Pricing from "./components/Pricing/Pricing";
 import FAQ from "./components/FAQ/FAQ";
+import Policies from "./components/Policies/Policies";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<LandingPage />}></Route>
           <Route path="/Pricing" element={<Pricing />}></Route>
           <Route path="/FAQ" element={<FAQ />}></Route>
+          <Route path="/Policies" element={<Policies/>}></Route>
         </Routes>
       </Router>
     </div>
