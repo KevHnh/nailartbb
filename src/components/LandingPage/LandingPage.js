@@ -3,8 +3,7 @@ import "./LandingPage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faPlus } from "@fortawesome/free-solid-svg-icons";
 import Marquee from "react-fast-marquee";
-import Nav from "./Nav";
-import FAQData from "./data/FAQ.json";
+import FAQData from "../data/FAQ.json";
 
 function LandingPage() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -28,7 +27,6 @@ function LandingPage() {
 
   return (
     <div className="LandingPageContainer">
-      <Nav />
       <div className="LandingPageWrapper">
         <div id="Home" className="LPSection">
           <div className="LPInner">
