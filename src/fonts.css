@@ -1,3 +1,13 @@
+:root {
+  --background1: #fa9786;
+  --background2: #d47f70;
+  --title: #fafafa;
+  --sub: #fafafa;
+  --btn: #ebb6ad;
+  --btnHover1: #d47f70;
+  --btnHover2: #7b453b;
+}
+
 @font-face {
   font-family: "LondrinaSolid";
   src: url("../public/fonts/LondrinaSolid.otf");
@@ -7,7 +17,7 @@
   font-family: "LondrinaSolid";
   font-size: 7rem;
   font-weight: 600;
-  color: white;
+  color: var(--title);
   white-space: nowrap;
 }
 
@@ -15,21 +25,21 @@
   font-family: "LondrinaSolid";
   font-size: 3rem;
   font-weight: 500;
-  color: white;
+  color: var(--sub);
 }
 
 .sub1 {
   font-family: "LondrinaSolid";
   font-size: 2rem;
   font-weight: 500;
-  color: white;
+  color: var(--sub);
 }
 
 .sub2 {
   font-family: "LondrinaSolid";
   font-size: 1.4rem;
   font-weight: 500;
-  color: white;
+  color: var(--sub);
 }
 
 .btn {
@@ -38,10 +48,10 @@
   padding: 1rem 1.5rem;
   width: fit-content;
   cursor: pointer;
-  background-color: #ebb6ad;
+  background-color: var(--btn);
   transition: all 0.5s ease-in-out;
   border-radius: 0.5rem;
-  color: white;
+  color: var(--sub);
   white-space: nowrap;
 }
 
@@ -50,24 +60,24 @@
 }
 
 .btn:hover {
-  box-shadow: inset 22rem 0 0 0 #D47F70;
+  box-shadow: inset 22rem 0 0 0 var(--btnHover1);
 }
 
 .tableBtn {
   font-family: "LondrinaSolid";
   font-size: 1.5rem;
-  padding: .75rem 1.5rem;
+  padding: 0.75rem 1.5rem;
   width: fit-content;
   cursor: pointer;
-  background-color: #ffffff;
+  background-color: var(--sub);
   transition: all 0.5s ease-in-out;
   border-radius: 0.5rem;
-  color: #FA9786 !important;
+  color: var(--background2) !important;
   white-space: nowrap;
 }
 
 .tableBtn:hover {
-  box-shadow: inset 22rem 0 0 0 #7b453b;
+  box-shadow: inset 22rem 0 0 0 var(--btnHover2);
 }
 
 @keyframes appear {
@@ -84,12 +94,12 @@
     font-size: 6rem;
     font-weight: 600;
   }
-  
+
   .header {
     font-size: 2.5rem;
     font-weight: 400;
   }
-  
+
   .btn {
     font-size: 1.6rem;
     padding: 1rem 1.5rem;
@@ -97,15 +107,14 @@
 
   .tableBtn {
     font-size: 1.25rem;
-    padding: .5rem 1.25rem;
+    padding: 0.5rem 1.25rem;
   }
 
   .sub1 {
     font-size: 1.75rem;
   }
-  
+
   .sub2 {
     font-size: 1.25rem;
   }
-  
 }

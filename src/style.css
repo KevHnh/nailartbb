@@ -2,8 +2,8 @@
   position: relative;
   width: 100%;
   display: flex;
-  justify-content: center; 
-  background-color: #fa9786;
+  justify-content: center;
+  background-color: var(--background1);
   min-height: 30rem;
 }
 
