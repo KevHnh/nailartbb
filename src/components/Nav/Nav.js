@@ -30,7 +30,7 @@ function Nav() {
       <div className="NavContainer">
         <div className="NavWrapper">
           <div className="NavSection">
-            <a href="#Home" className="NavItem logo">
+            <a className="NavItem logo" onClick={() => redirect("/")}>
               BB
             </a>
           </div>

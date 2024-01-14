@@ -38,7 +38,7 @@ function LandingPage() {
   return (
     <div className="LandingPageContainer">
       <div className="LandingPageWrapper">
-        <div id="Home" className="LPSection">
+        <div className="LPSection">
           <div className="LPInner">
             <div className="title">BB Nails</div>
             <div className="btn">
@@ -75,95 +75,18 @@ function LandingPage() {
             )}
           </div>
         </div>
-        <div id="Pricing" className="LPSection">
-          <div className="LPSectionBorder">
-            <div className="header">Pricing</div>
-            <table>
-              <tbody>
-                <tr>
-                  <th>Service</th>
-                  <th>Time</th>
-                  <th>Price</th>
-                  <th className="lastRow">Action</th>
-                </tr>
-                <tr>
-                  <td>#1</td>
-                  <td>1 Hr</td>
-                  <td>$150</td>
-                  <td className="lastRow">
-                    <div className="tableBtn">Book Now</div>
-                  </td>
-                </tr>
-                <tr>
-                  <td>#2</td>
-                  <td>2 Hr</td>
-                  <td>$200</td>
-                  <td className="lastRow">
-                    <div className="tableBtn">Book Now</div>
-                  </td>
-                </tr>
-                <tr>
-                  <td>#3</td>
-                  <td>2 Hr</td>
-                  <td>$200</td>
-                  <td className="lastRow">
-                    <div className="tableBtn">Book Now</div>
-                  </td>
-                </tr>
-                <tr>
-                  <td>#4</td>
-                  <td>2 Hr</td>
-                  <td>$200</td>
-                  <td className="lastRow">
-                    <div className="tableBtn">Book Now</div>
-                  </td>
-                </tr>
-                <tr>
-                  <td>#5</td>
-                  <td>2 Hr</td>
-                  <td>$200</td>
-                  <td className="lastRow">
-                    <div className="tableBtn">Book Now</div>
-                  </td>
-                </tr>
-                <tr>
-                  <td>#6</td>
-                  <td>2 Hr</td>
-                  <td>$200</td>
-                  <td className="lastRow">
-                    <div className="tableBtn">Book Now</div>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+      </div>
+      <div className="LPSectionBorder">
+        <div className="header">Looking for your next set?</div>
+        <div className="LPBorderInner">
+          <div className="LPInnerItem">
+            <div className="InnerItem1"></div>
+            <div className="header">Browse Sets</div>
           </div>
-        </div>
-        <div id="FAQ" className="LPSection">
-          <div className="LPSectionBorder">
-            <div className="header">FAQ</div>
-            <div className="FAQTable">
-              {FAQData.map((item, index) => (
-                <div
-                  key={index}
-                  className="FAQItem"
-                  onClick={() => toggleAnswer(index)}
-                >
-                  <div className="FAQQuestion">
-                    <div className="sub1">{item.Q}</div>
-                    <div className="sub1">
-                      <FontAwesomeIcon icon={faPlus} />
-                    </div>
-                  </div>
-                  <div
-                    className={`FAQAnswer sub2 ${
-                      activeIndex === index ? "displayBlock" : "displayNone"
-                    }`}
-                  >
-                    {item.A}
-                  </div>
-                </div>
-              ))}
-            </div>
+          <div className="LPInnerItem">
+            {" "}
+            <div className="InnerItem2"></div>
+            <div className="header">Services</div>
           </div>
         </div>
       </div>

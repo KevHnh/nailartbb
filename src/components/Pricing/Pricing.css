@@ -1,2 +1,9 @@
+.flex-container {
+    display: flex;
+}
 
-
+.flex-container > div {
+    display: flex;
+    width: 100%;
+    max-width: 30rem;
+}
