@@ -1,0 +1,15 @@
+.FAQContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.FAQEntry {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.FAQEntry > .sub1 {
+    margin-bottom: 0rem;
+}

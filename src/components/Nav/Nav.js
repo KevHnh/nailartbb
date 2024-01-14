@@ -56,7 +56,7 @@ function Nav() {
           </a>
         </div>
         <div className="NavSection">
-          <a className="NavItem">Gallery</a>
+          <a className="NavItem" onClick={() => redirect("Gallery")}>Gallery</a>
           <a className="NavItem" onClick={() => redirect("Pricing")}>
             Pricing
           </a>

@@ -1,10 +1,12 @@
-import React from 'react'
-import "./Gallery.css"
+import React from "react";
+import "./Gallery.css";
 
 function Gallery() {
   return (
-    <div>Gallery</div>
-  )
+    <div className="GlobalContainer">
+      <div className="GlobalWrapper"></div>
+    </div>
+  );
 }
 
-export default Gallery
+export default Gallery;

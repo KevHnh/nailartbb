@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import "./LandingPage.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight, faPlus } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from "react-router-dom";
 import Marquee from "react-fast-marquee";
-import FAQData from "../../data/FAQ.json";
 import img1 from "../../assets/nailart1.jpeg";
 import img2 from "../../assets/nailart2.jpeg";
 import img3 from "../../assets/nailart3.png";
@@ -18,7 +18,12 @@ import img11 from "../../assets/nailart11.jpeg";
 
 function LandingPage() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-  const [activeIndex, setActiveIndex] = useState(null);
+  const navigate = useNavigate();
+
+  function redirect(path) {
+    navigate(path);
+    window.scroll(0, 0);
+  }
 
   useEffect(() => {
     const handleResize = () => {
@@ -30,10 +35,6 @@ function LandingPage() {
       window.removeEventListener("resize", handleResize);
     };
   }, [screenWidth]);
-
-  function toggleAnswer(index) {
-    setActiveIndex(activeIndex === index ? null : index);
-  }
 
   return (
     <div className="LandingPageContainer">
@@ -79,12 +80,11 @@ function LandingPage() {
       <div className="LPSectionBorder">
         <div className="header">Looking for your next set?</div>
         <div className="LPBorderInner">
-          <div className="LPInnerItem">
+          <div className="LPInnerItem" onClick={() => redirect("Gallery")}>
             <div className="InnerItem1"></div>
             <div className="header">Browse Sets</div>
           </div>
-          <div className="LPInnerItem">
-            {" "}
+          <div className="LPInnerItem" onClick={() => redirect("Pricing")}>
             <div className="InnerItem2"></div>
             <div className="header">Services</div>
           </div>

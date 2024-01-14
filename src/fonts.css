@@ -2,7 +2,8 @@
   --background1: #fa9786;
   --background2: #d47f70;
   --title: #fafafa;
-  --sub: #fafafa;
+  --sub1: #fafafa;
+  --sub2: #6d4139;
   --btn: #ebb6ad;
   --btnHover1: #d47f70;
   --btnHover2: #7b453b;
@@ -25,21 +26,21 @@
   font-family: "LondrinaSolid";
   font-size: 3rem;
   font-weight: 500;
-  color: var(--sub);
+  color: var(--sub1);
 }
 
 .sub1 {
   font-family: "LondrinaSolid";
   font-size: 2rem;
   font-weight: 500;
-  color: var(--sub);
+  color: var(--sub1);
 }
 
 .sub2 {
   font-family: "LondrinaSolid";
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 500;
-  color: var(--sub);
+  color: var(--sub2);
 }
 
 .btn {
