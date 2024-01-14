@@ -48,7 +48,7 @@
   flex-direction: column;
   border-radius: 0.5rem;
   padding: 5rem;
-  background-color: var(--background2);
+  border-top: 5px solid white;
   gap: 3rem;
 }
 
@@ -96,7 +96,7 @@
 }
 
 .LPInnerItem {
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   position: relative;
   display: flex;
   justify-content: center;
@@ -105,7 +105,7 @@
   width: 100%;
   padding: 8rem 3rem;
   cursor: pointer;
-  border: 1px solid red;
+  border: 5px solid white;
 }
 
 .LPInnerItem:hover > .InnerItem1,
@@ -120,8 +120,9 @@
   background-size: 100%;
   width: 100%;
   height: 100%;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   transition: all 0.3s ease-in-out;
+  filter: brightness(70%);
 }
 
 .InnerItem2 {
@@ -131,7 +132,8 @@
   background-size: 100%;
   width: 100%;
   height: 100%;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
+  filter: brightness(70%);
   transition: all 0.3s ease-in-out;
 }
 
@@ -183,5 +185,9 @@
     margin: 0rem 1rem;
     border-radius: 0.5rem;
     border: 5px solid white;
+  }
+
+  .LPBorderInner {
+    flex-direction: column;
   }
 }
