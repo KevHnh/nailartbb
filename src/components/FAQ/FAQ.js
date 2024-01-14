@@ -6,7 +6,7 @@ function FAQ() {
     <div className="GlobalContainer">
       <div className="GlobalWrapper">
         <div className="header">FAQ</div>
-        <div className="sub1">
+        <div className="sub2">
           I get a lot of questions, if you have a question see if it is answered
           on here first. If not, I would be happy to answer any other questions
           you may have.

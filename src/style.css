@@ -13,7 +13,20 @@
   max-width: 80rem;
   display: flex;
   flex-direction: column;
-  /* overflow: hidden; */
+  overflow: hidden;
   padding: 10rem 1.5rem;
   gap: 3rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .GlobalWrapper {
+    position: relative;
+    width: 100%;
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 8rem 1.5rem;
+    gap: 3rem;
+  }
 }
