@@ -1,10 +1,68 @@
-.flex-container {
-    display: flex;
-    margin: 2rem 0rem;
+.PricingTableContainer {
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+  width: 100%;
+  gap: 1rem;
 }
 
-.flex-container > div {
-    display: flex;
+.PricingTableHeader {
+  display: flex;
+  width: 100%;
+}
+
+.PricingTableEntry {
+  display: flex;
+  width: 100%;
+  padding: 1rem 0rem;
+}
+
+.pName {
+  width: 100%;
+  min-width: 15rem;
+}
+
+.pPrice {
+  width: 100%;
+  min-width: 15rem;
+}
+
+.pDesc {
+  width: 100%;
+  min-width: 30rem;
+}
+
+.PricingTableHeaderMobile {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .PricingTableHeaderMobile {
+    display: block;
+  }
+
+  .PricingTableHeader {
+    display: none;
+  }
+
+  .PricingTableEntry {
+    flex-wrap: wrap;
+  }
+
+  .pName {
+    padding-right: 1rem;
+    width: fit-content;
+    min-width: unset;
+  }
+
+  .pPrice {
+    width: fit-content;
+    min-width: unset;
+  }
+
+  .pDesc {
     width: 100%;
-    max-width: 30rem;
+    min-width: unset;
+    margin-top: 1rem;
+  }
 }
