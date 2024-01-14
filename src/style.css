@@ -2,8 +2,7 @@
   position: relative;
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; 
   background-color: #fa9786;
   height: 100vh;
   min-height: 30rem;
@@ -15,7 +14,7 @@
   max-width: 80rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   overflow: hidden;
+  padding: 10rem 1.5rem;
+  gap: 3rem;
 }
