@@ -73,7 +73,8 @@
 }
 
 .marqueeImg {
-  margin: 0rem 5rem;
+  width: 22rem;
+  margin: 0rem 7rem;
   border-radius: 0.5rem;
   border: 5px solid white;
 }
@@ -155,7 +156,7 @@ td {
     justify-content: unset;
     align-items: center;
     z-index: 10;
-    height: 20rem;
+    height: 22rem;
     margin-right: 0rem;
     padding-top: 7rem;
   }
@@ -164,7 +165,7 @@ td {
     display: flex;
     flex-direction: row;
     position: relative;
-    height: 30rem;
+    height: 32rem;
   }
 
   .rfm-marquee {

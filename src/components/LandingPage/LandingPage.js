@@ -4,17 +4,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faPlus } from "@fortawesome/free-solid-svg-icons";
 import Marquee from "react-fast-marquee";
 import FAQData from "../../data/FAQ.json";
-import img1 from "../../assets/nailart1.jpeg"
-import img2 from "../../assets/nailart2.jpeg"
-import img3 from "../../assets/nailart3.png"
-import img4 from "../../assets/nailart4.jpeg"
-import img5 from "../../assets/nailart5.jpeg"
-import img6 from "../../assets/nailart6.jpeg"
-import img7 from "../../assets/nailart7.jpeg"
-import img8 from "../../assets/nailart8.jpeg"
-import img9 from "../../assets/nailart9.jpeg"
-import img10 from "../../assets/nailart10.jpeg"
-import img11 from "../../assets/nailart11.jpeg"
+import img1 from "../../assets/nailart1.jpeg";
+import img2 from "../../assets/nailart2.jpeg";
+import img3 from "../../assets/nailart3.png";
+import img4 from "../../assets/nailart4.jpeg";
+import img5 from "../../assets/nailart5.jpeg";
+import img6 from "../../assets/nailart6.jpeg";
+import img7 from "../../assets/nailart7.jpeg";
+import img8 from "../../assets/nailart8.jpeg";
+import img9 from "../../assets/nailart9.jpeg";
+import img10 from "../../assets/nailart10.jpeg";
+import img11 from "../../assets/nailart11.jpeg";
 
 function LandingPage() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -53,59 +53,19 @@ function LandingPage() {
                 direction={screenWidth <= 1000 ? "right" : "up"}
                 pauseOnClick="true"
               >
-                <img
-                  className="marqueeImg"
-                  src={
-                    img1
-                  }
-                />
-                <img
-                  className="marqueeImg"
-                  src={
-                    img2
-                  }
-                />
-                <img
-                  className="marqueeImg"
-                  src={
-                    img3
-                  }
-                />
-                <img
-                  className="marqueeImg"
-                  src={
-                    img4
-                  }
-                />
+                <img className="marqueeImg" src={img1} />
+                <img className="marqueeImg" src={img2} />
+                <img className="marqueeImg" src={img3} />
+                <img className="marqueeImg" src={img4} />
               </Marquee>
             </div>
             {screenWidth >= 1000 ? (
               <div className="MarqueeContainer">
                 <Marquee direction="down" pauseOnClick="true">
-                  <img
-                    className="marqueeImg"
-                    src={
-                      "https://www.roadsideamerica.com/attract/images/ny/NYONE911mem_erwin1.jpg"
-                    }
-                  />
-                  <img
-                    className="marqueeImg"
-                    src={
-                      "https://www.roadsideamerica.com/attract/images/ny/NYONE911mem_erwin1.jpg"
-                    }
-                  />
-                  <img
-                    className="marqueeImg"
-                    src={
-                      "https://www.roadsideamerica.com/attract/images/ny/NYONE911mem_erwin1.jpg"
-                    }
-                  />
-                  <img
-                    className="marqueeImg"
-                    src={
-                      "https://www.roadsideamerica.com/attract/images/ny/NYONE911mem_erwin1.jpg"
-                    }
-                  />
+                  <img className="marqueeImg" src={img5} />
+                  <img className="marqueeImg" src={img6} />
+                  <img className="marqueeImg" src={img7} />
+                  <img className="marqueeImg" src={img8} />
                 </Marquee>
               </div>
             ) : (
