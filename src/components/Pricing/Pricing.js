@@ -5,8 +5,8 @@ function Pricing() {
   return (
     <div className="GlobalContainer">
       <div id="Pricing" className="GlobalWrapper">
-        <div className="header">Gel Manicures</div>
-        <h2>
+        <div className="header sub1" >Gel Manicures</div>
+        <h2 className="sub1">
           The gel manicures are performed on your natural nail with a waterless
           manicure. It includes nail shaping and Russian Cuticle Care. If you're
           preference is to just push back the cuticle, please let me know.
@@ -18,12 +18,12 @@ function Pricing() {
           an add on option for $20.
         </h2>
         <div className="flex-container-parent">
-          <div className="flex-container">
+          <div className="flex-container sub1">
             <div>Tiers</div>
             <div>Starting Price</div>
             <div>Description</div>
           </div>
-          <div className="flex-container">
+          <div className="flex-container sub1">
             <div>Basic Nail Art</div>
             <div>$80+</div>
             <div>
@@ -32,7 +32,7 @@ function Pricing() {
               simple french only)
             </div>
           </div>
-          <div className="flex-container">
+          <div className="flex-container sub1">
             <div>Intermediate Nail Art</div>
             <div>$100+</div>
             <div>
@@ -40,19 +40,19 @@ function Pricing() {
               mixed media, etc
             </div>
           </div>
-          <div className="flex-container">
+          <div className="flex-container sub1">
             <div>Advanced Nail Art</div>
             <div>$120+</div>
             <div>
               3D fruits, some hand painted designs, multiple charms, etc
             </div>
           </div>
-          <div className="flex-container">
+          <div className="flex-container sub1">
             <div>Intricate Nail Art</div>
             <div>$140+</div>
             <div>flowers, ink, chrome designs, encapsulations, etc</div>
           </div>
-          <div className="flex-container">
+          <div className="flex-container sub1">
             <div>Advanced Nail Art</div>
             <div>$160+</div>
             <div>
@@ -62,7 +62,7 @@ function Pricing() {
             </div>
           </div>
         </div>
-        <h2>
+        <h2 className=" sub1">
           If unsure as to what kind of tier your design is, please email
           bb.love.nails92@gmail.com and I will gladly help.
         </h2>
