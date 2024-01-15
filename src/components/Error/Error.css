@@ -1,0 +1,22 @@
+.ErrorContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.ErrorEntry {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.ErrorEntry > .sub2 {
+    width: fit-content;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.ErrorEntry > .sub1 {
+  margin-bottom: 0rem;
+}

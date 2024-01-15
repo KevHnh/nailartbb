@@ -104,14 +104,19 @@ function Pricing() {
             <div className="sub2 pName">Nail Fix</div>
             <div className="sub2 pPrice">$10</div>
             <div className="sub2 pDesc">
-              I offer complimentary fixes within 48 hours of completion, anything past the 48 hours will cost $10
+              I offer complimentary fixes within 48 hours of completion,
+              anything past the 48 hours will cost $10
             </div>
           </div>
           <div className="PricingTableEntry">
             <div className="sub2 pName">Express Pedicures w/ Dazzle Dry</div>
             <div className="sub2 pPrice">$80+</div>
             <div className="sub2 pDesc">
-            The signature pedicure is waterless to avoid fungus. It includes cleansing with an anti-bacterial spray, nail care, foot filing, and a gentle foot massage with moisturizing lotion. The final touch is Dazzle Dry, a non-toxic and cruelty-free nail polish that dries quickly.
+              The signature pedicure is waterless to avoid fungus. It includes
+              cleansing with an anti-bacterial spray, nail care, foot filing,
+              and a gentle foot massage with moisturizing lotion. The final
+              touch is Dazzle Dry, a non-toxic and cruelty-free nail polish that
+              dries quickly.
             </div>
           </div>
         </div>

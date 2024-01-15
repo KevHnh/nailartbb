@@ -6,6 +6,8 @@ import Nav from "./components/Nav/Nav";
 import Pricing from "./components/Pricing/Pricing";
 import FAQ from "./components/FAQ/FAQ";
 import Policies from "./components/Policies/Policies";
+import Gallery from "./components/Gallery/Gallery";
+import Error from "./components/Error/Error";
 
 function App() {
   return (
@@ -13,10 +15,12 @@ function App() {
       <Router>
         <Nav />
         <Routes>
+          <Route path="*" element={<Error />}></Route>
           <Route path="/" element={<LandingPage />}></Route>
           <Route path="/Pricing" element={<Pricing />}></Route>
           <Route path="/FAQ" element={<FAQ />}></Route>
-          <Route path="/Policies" element={<Policies/>}></Route>
+          <Route path="/Policies" element={<Policies />}></Route>
+          <Route path="/Gallery" element={<Gallery />}></Route>
         </Routes>
       </Router>
     </div>
