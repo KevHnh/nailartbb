@@ -43,7 +43,7 @@ function Pricing() {
             <div className="sub2 pName">Intermediate Nail Art</div>
             <div className="sub2 pPrice">$100+</div>
             <div className="sub2 pDesc">
-              hand painted designs, minimal 3D art, airbrush designs, minimal
+              Hand painted designs, minimal 3D art, airbrush designs, minimal
               mixed media, etc
             </div>
           </div>
@@ -66,7 +66,7 @@ function Pricing() {
             <div className="sub2 pName">Advanced Nail Art</div>
             <div className="sub2 pPrice">$160+</div>
             <div className="sub2 pDesc">
-              any art that takes color mixing, linen patterns, paintings
+              Any art that takes color mixing, linen patterns, paintings
               inspired nails, ultimate encapsulations, ultimate 3D handmade
               charms, etc{" "}
             </div>
