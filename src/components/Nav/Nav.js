@@ -3,13 +3,16 @@ import "./Nav.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faTiktok } from "@fortawesome/free-brands-svg-icons";
 import { useNavigate } from "react-router-dom";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 function Nav() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [menu, setMenu] = useState(false);
   const navigate = useNavigate();
 
   function redirect(path) {
     navigate(path);
+    setMenu(false);
     window.scroll(0, 0);
   }
 
@@ -35,14 +38,53 @@ function Nav() {
             </a>
           </div>
           <div className="NavSection">
-            <a className="NavItem">
-              <FontAwesomeIcon icon={faInstagram} />
-            </a>
-            <a className="NavItem">
-              <FontAwesomeIcon icon={faTiktok} />
+            <a className="NavItem" onClick={() => setMenu(!menu)}>
+              {!menu ? (
+                <FontAwesomeIcon icon={faBars} />
+              ) : (
+                <FontAwesomeIcon icon={faXmark} />
+              )}
             </a>
           </div>
         </div>
+        {menu ? (
+          <div className="MobileNavContainer">
+            <div className="NavWrapper">
+              <div className="NavSection">
+                <a className="NavItem" onClick={() => redirect("Gallery")}>
+                  Gallery
+                </a>
+                <a className="NavItem" onClick={() => redirect("Pricing")}>
+                  Pricing
+                </a>
+                <a className="NavItem" onClick={() => redirect("FAQ")}>
+                  FAQ
+                </a>
+                <a className="NavItem" onClick={() => redirect("Policies")}>
+                  Policies
+                </a>
+                <div className="SMRow">
+                  <a
+                    className="NavItem SMIcon"
+                    href="https://www.instagram.com/bb.love.nails92/"
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon icon={faInstagram} />
+                  </a>
+                  <a
+                    className="NavItem SMIcon"
+                    href="https://www.tiktok.com/@bb.love.nails92"
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon icon={faTiktok} />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        ) : (
+          <></>
+        )}
       </div>
     );
   }
@@ -56,7 +98,9 @@ function Nav() {
           </a>
         </div>
         <div className="NavSection">
-          <a className="NavItem" onClick={() => redirect("Gallery")}>Gallery</a>
+          <a className="NavItem" onClick={() => redirect("Gallery")}>
+            Gallery
+          </a>
           <a className="NavItem" onClick={() => redirect("Pricing")}>
             Pricing
           </a>
@@ -66,10 +110,18 @@ function Nav() {
           <a className="NavItem" onClick={() => redirect("Policies")}>
             Policies
           </a>
-          <a className="NavItem">
+          <a
+            className="NavItem SMIcon"
+            href="https://www.instagram.com/bb.love.nails92/"
+            target="_blank"
+          >
             <FontAwesomeIcon icon={faInstagram} />
           </a>
-          <a className="NavItem">
+          <a
+            className="NavItem SMIcon"
+            href="https://www.tiktok.com/@bb.love.nails92"
+            target="_blank"
+          >
             <FontAwesomeIcon icon={faTiktok} />
           </a>
         </div>

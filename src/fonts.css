@@ -1,12 +1,13 @@
 :root {
   --background1: #fa9786;
   --background2: #d47f70;
-  --title: #280013;
-  --sub1: #280013;
-  --sub2: #280013;
+  --title: #52403c;
+  --sub1: #52403c;
+  --sub2: #52403c;
   --btn: #fafafa;
-  --btnHover1: #ECC2D2;
-  --btnHover2: #ECC2D2;
+  --btnHover1: #ffd2c8;
+  --btnHover2: #ffd2c8;
+  --border: #fafafa;
 }
 
 @font-face {
@@ -51,8 +52,9 @@
 .btn {
   font-family: "Poppins";
   font-size: 1.5rem;
+  font-weight: 600;
   padding: 1rem 1.5rem;
-  width: fit-content;
+  width: 100%;
   cursor: pointer;
   background-color: var(--btn);
   transition: all 0.5s ease-in-out;
@@ -66,7 +68,7 @@
 }
 
 .btn:hover {
-  box-shadow: inset 22rem 0 0 0 var(--btnHover1);
+  box-shadow: inset 24rem 0 0 0 var(--btnHover1);
 }
 
 .tableBtn {
