@@ -6,7 +6,7 @@ function Pricing() {
     <div className="GlobalContainer">
       <div id="Pricing" className="GlobalWrapper">
         <div className="header">Gel Manicures</div>
-        <h2 className="sub2">
+        <div className="sub2">
           The gel manicures are performed on your natural nail with a waterless
           manicure. It includes nail shaping and Russian Cuticle Care. If you're
           preference is to just push back the cuticle, please let me know.
@@ -20,7 +20,7 @@ function Pricing() {
           </a>
           , a japanese brand that is vegan, and 9-free non toxic. Extensions are
           an add on option for $20.
-        </h2>
+        </div>
         <div className="PricingTableContainer">
           <div className="PricingTableHeaderMobile">
             <div className="sub1">Tier / Starting Price / Description</div>
@@ -72,7 +72,7 @@ function Pricing() {
             </div>
           </div>
         </div>
-        <h2 className="sub2">
+        <div className="sub2">
           If unsure as to what kind of tier your design is, please email{" "}
           <a
             className="sub2"
@@ -82,7 +82,7 @@ function Pricing() {
             bb.love.nails92@gmail.com
           </a>{" "}
           and I will gladly help.
-        </h2>
+        </div>
       </div>
     </div>
   );
