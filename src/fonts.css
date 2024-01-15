@@ -5,8 +5,8 @@
   --sub1: #52403c;
   --sub2: #52403c;
   --btn: #fafafa;
-  --btnHover1: #ffd2c8;
-  --btnHover2: #ffd2c8;
+  --btnHover1: #a48d88;
+  --btnHover2: #a48d88;
   --border: #fafafa;
 }
 
@@ -57,17 +57,19 @@
   width: 100%;
   cursor: pointer;
   background-color: var(--btn);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
   border-radius: 0.5rem;
   color: var(--sub);
   white-space: nowrap;
 }
 
 .btn:hover .btnArrow {
+  color: white;
   transform: translate(0.5rem);
 }
 
 .btn:hover {
+  color: white;
   box-shadow: inset 24rem 0 0 0 var(--btnHover1);
 }
 
