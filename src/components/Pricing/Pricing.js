@@ -73,8 +73,15 @@ function Pricing() {
           </div>
         </div>
         <h2 className="sub2">
-          If unsure as to what kind of tier your design is, please email
-          bb.love.nails92@gmail.com and I will gladly help.
+          If unsure as to what kind of tier your design is, please email{" "}
+          <a
+            className="sub2"
+            href="mailto:bb.love.nails92@gmail.com"
+            target="_blank"
+          >
+            bb.love.nails92@gmail.com
+          </a>{" "}
+          and I will gladly help.
         </h2>
       </div>
     </div>
