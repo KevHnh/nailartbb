@@ -72,8 +72,7 @@ function Pricing() {
             </div>
           </div>
         </div>
-
-        <h2 className=" sub1">
+        <h2 className="sub2">
           If unsure as to what kind of tier your design is, please email
           bb.love.nails92@gmail.com and I will gladly help.
         </h2>

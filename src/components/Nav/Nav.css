@@ -5,8 +5,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fa9786;
+  background: transparent;
   z-index: 100;
+  border-bottom: 5px solid white;
+  background: rgb(247, 233, 249);
+  background: linear-gradient(
+    90deg,
+    rgba(247, 233, 249, 1) 0%,
+    rgba(255, 206, 247, 1) 100%
+  );
 }
 
 .NavWrapper {
@@ -24,18 +31,21 @@
 }
 
 .NavItem {
-  font-family: "LondrinaSolid";
-  color: white;
-  font-size: 1.75rem;
+  font-family: "Poppins";
+  color: var(--sub1);
+  font-size: 1.25rem;
+  font-weight: 500;
   cursor: pointer;
   text-decoration: none;
 }
 
 .logo {
+  font-family: "Recoleta";
+  font-weight: bolder;
   background-color: white;
   padding: 0 0.5rem;
   border-radius: 0.5rem;
-  color: #fa9786;
+  color: var(--title);
   margin-right: 1.5rem;
 }
 
