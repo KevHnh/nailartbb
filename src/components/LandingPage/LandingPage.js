@@ -82,11 +82,11 @@ function LandingPage() {
         <div className="LPBorderInner">
           <div className="LPInnerItem" onClick={() => redirect("Gallery")}>
             <div className="InnerItem1"></div>
-            <div className="header">Browse Sets</div>
+            <div className="sub1">Browse Sets</div>
           </div>
           <div className="LPInnerItem" onClick={() => redirect("Pricing")}>
             <div className="InnerItem2"></div>
-            <div className="header">Services</div>
+            <div className="sub1">Services</div>
           </div>
         </div>
       </div>

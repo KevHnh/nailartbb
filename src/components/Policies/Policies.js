@@ -131,7 +131,7 @@ function Policies() {
           <div className="PoliciesEntry">
             <div className="sub1">HOW TO BOOK AN APPOINTMENT</div>
             <div className="sub2">
-              You can message me on instagram@bb.love.nails92 or through the
+              You can message me on IG: <a className="sub2" href="https://www.instagram.com/bb.love.nails92/" target="_blank">@bb.love.nails92</a> or through the
               website.
             </div>
             <div className="sub2">

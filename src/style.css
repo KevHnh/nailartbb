@@ -3,7 +3,12 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: var(--background1);
+  background: rgb(247, 233, 249);
+  background: linear-gradient(
+    90deg,
+    rgba(247, 233, 249, 1) 0%,
+    rgba(255, 206, 247, 1) 100%
+  );
   min-height: 30rem;
 }
 
