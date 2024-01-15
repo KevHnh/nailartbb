@@ -50,6 +50,9 @@
 }
 
 .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "Poppins";
   font-size: 1.5rem;
   font-weight: 600;
@@ -106,25 +109,20 @@
   }
 
   .header {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     font-weight: 1000;
   }
 
   .btn {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding: 1rem 1.5rem;
   }
 
-  .tableBtn {
-    font-size: 1.25rem;
-    padding: 0.5rem 1.25rem;
-  }
-
   .sub1 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 
   .sub2 {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 }
