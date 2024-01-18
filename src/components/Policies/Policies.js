@@ -7,23 +7,23 @@ function Policies() {
       <div className="GlobalWrapper">
         <div className="header">Policies</div>
         <div className="sub2">
-          Thank you for choosing me as your nail technician here are my policies
-          that will help your appointment (and my day) run smoothly.
+          Thank you for choosing me as your nail technician! Here are my
+          policies that will help your appointment run smoothly.
         </div>
         <div className="PoliciesContainer">
           <div className="PoliciesEntry">
-            <div className="sub1">THIRD PARTY WORK</div>
-            <div className="sub2">
-              To guarantee consistency retention, and quality of the final set I
-              do not offer fills or removals on work done by another salon.
-            </div>
-            <div className="sub2">Please come with bare nails!</div>
-          </div>
-          <div className="PoliciesEntry">
             <div className="sub1">MANDATORY DEPOSIT POLICY</div>
             <div className="sub2">
-              I require a $50 deposit through Zelle in order to keep your
-              appointment
+              A $50 deposit through Zelle is required in order to hold your
+              appointment. Deposits are made out to denisse_15_ms@hotmail.com
+            </div>
+          </div>
+          <div className="PoliciesEntry">
+            <div className="sub1">THIRD PARTY WORK</div>
+            <div className="sub2">
+              To guarantee retention and quality of the final set, I do not
+              offer fills or removals on work done by another salon.<br></br>
+              Please come with bare nails!
             </div>
           </div>
           <div className="PoliciesEntry">
@@ -34,10 +34,11 @@ function Policies() {
               rescheduling, or adjusting the service altogether.
             </div>
             <div className="sub2">
-              If its your first time coming, please make yourself familiar with
-              the area well before your appointment. I understand that situation
-              may come up, but it will be up to my discretion if the service can
-              be completed at that time.
+              If it’s your first time coming, please make yourself familiar with
+              the area and/or transportation routes before your appointment. I
+              understand that situations may arise, but it will be up to my
+              discretion if the service can be completed in the event that you
+              are over 10 minutes late.
             </div>
             <div className="sub2">
               I cannot guarantee your service can be completed if you are late,
@@ -50,70 +51,47 @@ function Policies() {
           <div className="PoliciesEntry">
             <div className="sub1">CHILDREN POLICY</div>
             <div className="sub2">
-              Please find arrangements for childcare, do not bring them to your
-              scheduled appointment. My studio is equipped with chemicals,
-              expensive equipment and small objects that are not appropiate for
-              children to be around. It is distractiong for me to do my work,
-              and I need all of my attention on you. If you bring your child, your
-              appointment will be cancelled on the spot and you will not recieve
-              your deposit back. It will count as a "no show" for the service
-              missed.
+              Please find arrangements for childcare. Do not bring your
+              child/children to your scheduled appointment. My studio is
+              equipped with chemicals, sensitive equipment, and small objects
+              that are not safe or appropiate for children to be around. If you
+              bring your child, your appointment will be cancelled on the spot
+              and you will not recieve your deposit back. It will count as a "no
+              show" for the service missed.
             </div>
           </div>
           <div className="PoliciesEntry">
             <div className="sub1">REFUND POLICY</div>
             <div className="sub2">
-              I have a no refund policy on services completed in the salon.
+              I have a “no refund policy” on services completed in the salon.
               However, if for any reason you are unhappy with the service you
               received, please notify me immediatley! I would be more than happy
               to make the matter right, either by fixing, or correcting a
-              service. I offer complimentary fixes within 48 hours of completion.
+              service. I offer complimentary fixes within 48 hours of
+              completion.
             </div>
           </div>
           <div className="PoliciesEntry">
             <div className="sub1">DISCLAIMER</div>
             <div className="sub2">
               I RESERVE THE RIGHT TO REFUSE SERVICE FOR ANY REASON, INCLUDING
-              FREQUENT CANCELLATIONS, NO SHOWS, AND FAILURE TO COMPLY WITH THE
-              POLICIES I HAVE INPLACE FOR MY BUSINESS. I GREATLY APPRECIATE YOUR
-              UNDERSTANDING AND COOPERATION WITH MY POLICIES.
-            </div>
-          </div>
-          <div className="PoliciesEntry">
-            <div className="sub1">HYGENIC SERVICES</div>
-            <div className="sub2">
-              It is the most important commitment for me as a responsible beauty
-              professional to take pride in keeping a clean sanitized work
-              environment by using hospital-grade disinfectant Barbicide
-              products for proper sanitization of all implements and surfaces 
-              after each and every client.
-            </div>
-            <div className="sub2">
-              All Metal Instruments used in any services (nailclippers, cuticle
-              pushers, cuticle bits, etc) are guaranteed to be thoroughly cleaned
-              and disinfected after each service by hospital grade
-              disinfectants which contains AHP (Accelerate Hydrogen Peroxide) to
-              eliminate bacteria, germs, and viruses such as Hepatitis B.
-            </div>
-            <div className="sub2">
-              All Non-Metal Tools : Every nail service includesyour own
-              individual nail file which is used at yourappointment. It will be
-              disposed of after eachservice.
+              BUT NOT LIMITED TO, FREQUENT CANCELLATIONS, NO SHOWS, AND FAILURE
+              TO COMPLY WITH THE POLICIES I HAVE IN PLACE FOR MY BUSINESS. I
+              GREATLY APPRECIATE YOUR UNDERSTANDING AND COOPERATION WITH MY
+              POLICIES.
             </div>
           </div>
           <div className="PoliciesEntry">
             <div className="sub1">SALON ENTRY POLICY</div>
             <div className="sub2">
-              My nail space area is located in 117 9th st, Brooklyn Ny 11215.
-              There is a code that will be emailed to you on the day of the
-              appointment (this code changes daily) Its such a great vibe in the
-              shop I can't wait to show you the space. I love to match my
-              clients energy, if you feel like chatting I would love to get to
-              know you better, or if this is your down time I offer "silent
-              appointments" where if you prefer have quiet time or don't feel
-              like talking and would prefer to listen to a podcast I am happy to
-              accommodate the appointment tailored to you. Whichever mood you're
-              in - I am so happy to see you and make you feel fabulous
+              My nail studio is located at 117 9th st, suite 239, Brooklyn Ny
+              11215. There is a code that will be emailed to you on the day of
+              the appointment (this code changes daily). I try to create a
+              pleasant ambience in the studio and cater to your mood. If you
+              feel like chatting I would love to get to know you better. If this
+              is your down time and you prefer quiet, or to listen to a podcast
+              or music, I offer “silent appointments”. Whatever get you the most
+              comfortable, I am happy to accommodate.
             </div>
           </div>
           <div className="PoliciesEntry">
@@ -131,16 +109,24 @@ function Policies() {
           <div className="PoliciesEntry">
             <div className="sub1">HOW TO BOOK AN APPOINTMENT</div>
             <div className="sub2">
-              You can message me on IG: <a className="sub2" href="https://www.instagram.com/bb.love.nails92/" target="_blank">@bb.love.nails92</a> or through the
-              website.
+              You can message me on IG:{" "}
+              <a
+                className="sub2"
+                href="https://www.instagram.com/bb.love.nails92/"
+                target="_blank"
+              >
+                @bb.love.nails92
+              </a>{" "}
+              or through the website.
             </div>
             <div className="sub2">
-              Before inquiring please review my price lists & policies, and
-              check my highlights oninstagram to answer and questions you may
-              have about the nail art tiers.
+              Before inquiring, please review my price lists, policies, and
+              check my highlights on instagram, for answers to any questions you
+              may have about the nail art tiers.
             </div>
             <div className="sub2">
-              In the message please include name, last name and your question.
+              In the message please include first name, last name, and your
+              question.
             </div>
           </div>
         </div>

@@ -63,6 +63,9 @@ function Nav() {
                 <a className="NavItem" onClick={() => redirect("Policies")}>
                   Policies
                 </a>
+                <a className="NavItem" onClick={() => redirect("Hygienic")}>
+                  Hygienic
+                </a>
                 <div className="SMRow">
                   <a
                     className="NavItem SMIcon"
@@ -109,6 +112,9 @@ function Nav() {
           </a>
           <a className="NavItem" onClick={() => redirect("Policies")}>
             Policies
+          </a>
+          <a className="NavItem" onClick={() => redirect("Hygienic")}>
+            Hygienic
           </a>
           <a
             className="NavItem SMIcon"

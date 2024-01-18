@@ -8,6 +8,7 @@ import FAQ from "./components/FAQ/FAQ";
 import Policies from "./components/Policies/Policies";
 import Gallery from "./components/Gallery/Gallery";
 import Error from "./components/Error/Error";
+import Hygienic from "./components/Hygienic/Hygienic";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
           <Route path="/FAQ" element={<FAQ />}></Route>
           <Route path="/Policies" element={<Policies />}></Route>
           <Route path="/Gallery" element={<Gallery />}></Route>
+          <Route path="/Hygienic" element={<Hygienic />}></Route>
+
         </Routes>
       </Router>
     </div>
