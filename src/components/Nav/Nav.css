@@ -8,22 +8,18 @@
   align-items: center;
   background: transparent;
   z-index: 100;
-  border-bottom: 5px solid var(--border);
-  background: rgb(231, 212, 208);
-  background: linear-gradient(
-    90deg,
-    rgba(231, 212, 208, 1) 0%,
-    rgba(250, 250, 250, 1) 70%,
-    rgba(231, 212, 208, 1) 100%
-  );
+  padding: 0rem 1.5rem;
 }
 
 .NavWrapper {
+  background-color: var(--title);
+  margin: 1rem 1.5rem;
   display: flex;
   justify-content: space-between;
   width: 100%;
   max-width: 80rem;
   padding: 0rem 1.5rem;
+  border-radius: .5rem;
 }
 
 .NavSection {
@@ -34,10 +30,11 @@
 
 .NavItem {
   font-family: "Poppins";
-  color: var(--sub1);
-  font-size: 1.25rem;
-  font-weight: 600;
+  color: var(--nav);
+  font-size: 1rem;
   cursor: pointer;
+  font-weight: 600;
+  display: flex;
   text-decoration: none;
 }
 
@@ -46,12 +43,11 @@
 }
 
 .logo {
-  font-family: "Recoleta";
+  font-family: "Pompiere";
+  font-size: 1.25rem;
   font-weight: 1000;
-  background-color: white;
-  padding: 0 0.5rem;
   border-radius: 0.5rem;
-  color: var(--title);
+  color: var(--nav);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,11 +56,25 @@
 .MobileNavContainer {
   display: flex;
   height: 100vh;
-  border-top: 5px solid var(--border);
   width: 100%;
 }
 
 @media screen and (max-width: 1000px) {
+  .NavContainer {
+    padding: 0rem;
+  }
+
+  .NavWrapper {
+    background-color: var(--title);
+    margin: 0rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 80rem;
+    padding: 0rem 1.5rem;
+    border-radius: 0rem;
+  }
+
   .NavItem {
     font-size: 1.25rem;
     font-weight: 600;

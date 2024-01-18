@@ -19,6 +19,7 @@ import img11 from "../../assets/nailart11.jpeg";
 function LandingPage() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
   const navigate = useNavigate();
+  const imgs = [img1, img2, img3, img4, img5, img6, img7, img8];
 
   function redirect(path) {
     navigate(path);
@@ -41,52 +42,27 @@ function LandingPage() {
       <div className="LandingPageWrapper">
         <div className="LPSection">
           <div className="LPInner">
-            <div className="title">BB Nails</div>
+            <div className="title">ÉCLAT NAIL ART</div>
+            <div className="sub1">Gel X and Japanese Gel</div>
             <div className="btn">
               Book an Appointment
               <FontAwesomeIcon className="btnArrow" icon={faArrowRight} />
             </div>
           </div>
           <div className="LPInner">
-            <div className="MarqueeContainer marquee1">
-              <Marquee
-                direction={screenWidth <= 1000 ? "right" : "up"}
-                pauseOnClick="true"
-              >
-                <img className="marqueeImg" src={img1} />
-                <img className="marqueeImg" src={img2} />
-                <img className="marqueeImg" src={img3} />
-                <img className="marqueeImg" src={img4} />
-                <img className="marqueeImg" src={img5} />
-              </Marquee>
-            </div>
-            {screenWidth >= 1000 ? (
-              <div className="MarqueeContainer">
-                <Marquee direction="down" pauseOnClick="true">
-                  <img className="marqueeImg" src={img6} />
-                  <img className="marqueeImg" src={img7} />
-                  <img className="marqueeImg" src={img8} />
-                  <img className="marqueeImg" src={img9} />
-                  <img className="marqueeImg" src={img10} />
-                  <img className="marqueeImg" src={img11} />
-                </Marquee>
-              </div>
-            ) : (
-              <></>
-            )}
-          </div>
-        </div>
-      </div>
-      <div className="LPSectionBorder">
-        <div className="header">Looking for your next set?</div>
-        <div className="LPBorderInner">
-          <div className="LPInnerItem" onClick={() => redirect("Gallery")}>
-            <div className="InnerItem1"></div>
-            <div className="sub1">Browse Sets</div>
-          </div>
-          <div className="LPInnerItem" onClick={() => redirect("Pricing")}>
-            <div className="InnerItem2"></div>
-            <div className="sub1">Services</div>
+            <Marquee>
+              <img className="nailImg" src={img1}></img>
+              <img className="nailImg" src={img2}></img>
+              <img className="nailImg" src={img3}></img>
+              <img className="nailImg" src={img4}></img>
+              <img className="nailImg" src={img5}></img>
+              <img className="nailImg" src={img6}></img>
+              <img className="nailImg" src={img7}></img>
+              <img className="nailImg" src={img8}></img>
+              <img className="nailImg" src={img9}></img>
+              <img className="nailImg" src={img10}></img>
+              <img className="nailImg" src={img11}></img>
+            </Marquee>
           </div>
         </div>
       </div>

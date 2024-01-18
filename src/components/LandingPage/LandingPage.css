@@ -5,192 +5,54 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 5rem;
 }
 
 .LandingPageWrapper {
   position: relative;
   width: 100%;
-  max-width: 80rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 
 .btnArrow {
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin-left: 1rem;
   transition: all 0.3s ease-in-out;
 }
 
-.MarqueeContainer {
-  display: flex;
-  justify-content: center;
-  width: 25rem;
-}
-
 .LPSection {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
   overflow: hidden;
   width: 100%;
-  padding: 0rem 1.5rem;
-}
-
-.LPSectionBorder {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  border-radius: 0.5rem;
-  padding: 5rem;
-  border-top: 5px solid var(--border);
-  gap: 3rem;
 }
 
 .LPInner {
-  height: 100vh;
-  min-height: 50rem;
-}
-
-.LPInner:first-child {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  z-index: 10;
-  margin-right: 5rem;
-}
-
-.LPInner:nth-child(2) {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-}
-
-.rfm-marquee-container {
-  overflow-x: visible !important;
-}
-
-.marqueeImg {
-  width: 22rem;
-  margin: 0rem 7rem;
-  border-radius: 0.5rem;
-  border: 5px solid var(--border);
-}
-
-.LPBorderInner {
-  max-width: 80rem;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 100%;
-  gap: 3rem;
 }
 
-.LPInnerItem > .sub1 {
-  z-index: 10;
-  color: white !important;
+.LPInner:nth-child(1) {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
 }
 
-.LPInnerItem {
+.LPInner > .btn {
+  margin-top: 3rem;
+} 
+
+.nailImg {
+  width: 18rem;
+  margin: 0rem 1rem;
   border-radius: 0.5rem;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0.5rem;
-  width: 100%;
-  padding: 8rem 3rem;
-  cursor: pointer;
-  border: 5px solid var(--border);
-}
-
-.LPInnerItem:hover > .InnerItem1,
-.LPInnerItem:hover > .InnerItem2 {
-  background-size: 120%;
-}
-
-.InnerItem1 {
-  position: absolute;
-  background-image: url("../../assets/nailart10.jpeg");
-  background-position: 10%;
-  background-size: 100%;
-  width: 100%;
-  height: 100%;
-  border-radius: 0.5rem;
-  transition: all 0.6s ease-in-out;
-  filter: brightness(70%);
-}
-
-.InnerItem2 {
-  position: absolute;
-  background-image: url("../../assets/nailart11.jpeg");
-  background-position: 10%;
-  background-size: 100%;
-  width: 100%;
-  height: 100%;
-  border-radius: 0.5rem;
-  filter: brightness(70%);
-  transition: all 0.6s ease-in-out;
 }
 
 @media screen and (max-width: 1000px) {
-  .LPSection {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 
-  .LPSectionBorder {
-    border-radius: 0.5rem;
-    padding: 1.5rem;
-  }
-
-  .LPInner {
-    width: fit-content;
-    height: unset;
-    min-height: unset;
-  }
-
-  .LPInner:first-child {
-    display: flex;
-    flex-direction: column;
-    justify-content: unset;
-    align-items: center;
-    z-index: 10;
-    height: 22rem;
-    margin-right: 0rem;
-    padding-top: 7rem;
-  }
-
-  .LPInner:nth-child(2) {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    height: 36rem;
-    padding-bottom: 4rem;
-  }
-
-  .rfm-marquee {
-    height: unset !important;
-  }
-
-  .rfm-marquee-container {
-    height: unset !important;
-    overflow-x: visible !important;
-  }
-
-  .marqueeImg {
-    width: 20rem;
-    margin: 0rem 1rem;
-    border-radius: 0.5rem;
-    border: 5px solid var(--border);
-  }
-
-  .LPBorderInner {
-    flex-direction: column;
-  }
 }

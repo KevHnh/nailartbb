@@ -34,7 +34,7 @@ function Nav() {
         <div className="NavWrapper">
           <div className="NavSection">
             <a className="NavItem logo" onClick={() => redirect("/")}>
-              BB
+              ÉCLAT NAIL ART
             </a>
           </div>
           <div className="NavSection">
@@ -97,7 +97,7 @@ function Nav() {
       <div className="NavWrapper">
         <div className="NavSection">
           <a className="NavItem logo" onClick={() => redirect("/")}>
-            BB
+            ÉCLAT NAIL ART
           </a>
         </div>
         <div className="NavSection">

@@ -1,18 +1,18 @@
 :root {
   --background1: #fa9786;
-  --background2: #d47f70;
-  --title: #52403c;
-  --sub1: #52403c;
-  --sub2: #52403c;
-  --btn: #fafafa;
+  --title: #4F2222;
+  --nav: #fafafa;
+  --sub1: #4F2222;
+  --sub2: #4F2222;
+  --btn: #4F2222;
   --btnHover1: #a48d88;
   --btnHover2: #a48d88;
   --border: #fafafa;
 }
 
 @font-face {
-  font-family: "Recoleta";
-  src: url("../public/fonts/Recoleta.otf");
+  font-family: "Pompiere";
+  src: url("../public/fonts/Pompiere.ttf");
 }
 
 @font-face {
@@ -21,31 +21,30 @@
 }
 
 .title {
-  font-family: "Recoleta";
-  font-size: 6rem;
+  font-family: "Pompiere";
+  font-size: 4rem;
   font-weight: 1000;
   color: var(--title);
   white-space: nowrap;
 }
 
 .header {
-  font-family: "Recoleta";
+  font-family: "Pompiere";
   font-size: 3rem;
-  font-weight: 1000;
+  font-weight: bolder;
   color: var(--sub1);
 }
 
 .sub1 {
   font-family: "Poppins";
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-weight: 600;
   color: var(--sub1);
 }
 
 .sub2 {
   font-family: "Poppins";
-  font-size: 1.25rem;
-  font-weight: 500;
+  font-size: 1rem;
   color: var(--sub2);
 }
 
@@ -54,40 +53,23 @@
   justify-content: center;
   align-items: center;
   font-family: "Poppins";
-  font-size: 1.5rem;
   font-weight: 600;
+  font-size: 1rem;
   padding: 1rem 1.5rem;
-  width: 100%;
+  width: fit-content;
   cursor: pointer;
   background-color: var(--btn);
   transition: all 0.3s ease-in-out;
   border-radius: 0.5rem;
-  color: var(--sub);
+  color: var(--nav);
   white-space: nowrap;
 }
 
 .btn:hover .btnArrow {
   color: white;
-  transform: translate(0.5rem);
+  transform: translate(0.25rem);
 }
 
-.btn:hover {
-  color: white;
-  box-shadow: inset 24rem 0 0 0 var(--btnHover1);
-}
-
-.tableBtn {
-  font-family: "Recoleta";
-  font-size: 1.5rem;
-  padding: 0.75rem 1.5rem;
-  width: fit-content;
-  cursor: pointer;
-  background-color: var(--sub);
-  transition: all 0.5s ease-in-out;
-  border-radius: 0.5rem;
-  color: var(--background2) !important;
-  white-space: nowrap;
-}
 
 .tableBtn:hover {
   box-shadow: inset 22rem 0 0 0 var(--btnHover2);
@@ -103,7 +85,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .title {
+  /* .title {
     font-size: 6rem;
     font-weight: 1000;
   }
@@ -124,5 +106,5 @@
 
   .sub2 {
     font-size: 1rem;
-  }
+  } */
 }
