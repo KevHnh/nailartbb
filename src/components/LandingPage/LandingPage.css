@@ -6,6 +6,8 @@
   flex-direction: column;
   align-items: center;
   padding-bottom: 5rem;
+  min-height: 60rem;
+  overflow-x: hidden;
 }
 
 .LandingPageWrapper {
@@ -25,13 +27,13 @@
 }
 
 .b1 {
-  right: -10%;
-  top: -10%;
+  right: -15rem;
+  top: -10rem;
 }
 
 .b2 {
-  left: -15%;
-  top: 15%;
+  left: -20rem;
+  top: 10rem;
 }
 
 .btnArrow {
@@ -71,6 +73,17 @@
 }
 
 @media screen and (max-width: 600px) {
+  .LandingPageContainer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5rem;
+    min-height: 50rem;
+  }
+
   .nailImg {
     width: 14rem;
     margin: 0rem 1rem;
@@ -84,5 +97,15 @@
   .LPInner:nth-child(1) {
     margin-top: 10rem;
     margin-bottom: 4rem;
+  }
+
+  .b1 {
+    right: -10rem;
+    top: -0rem;
+  }
+  
+  .b2 {
+    left: -10rem;
+    top: 5rem;
   }
 }
