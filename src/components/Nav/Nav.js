@@ -32,12 +32,12 @@ function Nav() {
       <div className="NavContainer">
         <div className="NavWrapper">
           <div className="NavSection">
-            <a className="NavItem logo MobileIcon" onClick={() => redirect("/")}>
+            <a className="NavItem logo MobileLogo" onClick={() => redirect("/")}>
               ÉCLAT NAIL ART
             </a>
           </div>
           <div className="NavSection">
-            <a className="NavItem MobileIcon" onClick={() => setMenu(!menu)}>
+            <a className="NavItem MobileButton" onClick={() => setMenu(!menu)}>
               {!menu ? (
                 <FontAwesomeIcon icon={faBars} />
               ) : (

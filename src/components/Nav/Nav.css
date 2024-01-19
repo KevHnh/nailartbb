@@ -19,7 +19,7 @@
   width: 100%;
   max-width: 80rem;
   padding: 0rem 1.5rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 .NavSection {
@@ -59,11 +59,16 @@
   width: 100%;
 }
 
-.MobileIcon {
+.MobileLogo {
   font-size: 1.25rem !important;
+  font-weight: 1000 !important;
 }
 
-@media screen and (max-width: 1000px) {  
+.MobileButton {
+  font-size: 1.5rem !important;
+}
+
+@media screen and (max-width: 1000px) {
   .NavWrapper {
     background-color: var(--title);
     margin: 0rem 1.5rem;
@@ -73,13 +78,13 @@
     width: 100%;
     max-width: 80rem;
     padding: 0rem 1.5rem;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
   }
 
   .MobileNavContainer > .NavWrapper {
     margin: 0rem;
-    border-radius: .5rem;
-    transform: translateY(-.75rem);
+    border-radius: 0.5rem;
+    transform: translateY(-0.75rem);
   }
 
   .MobileNavContainer {
@@ -89,7 +94,7 @@
   }
 
   .NavItem {
-    font-size: 1rem;
+    font-size: .9rem;
     font-weight: 600;
   }
 
@@ -101,16 +106,15 @@
   }
 
   .MobileNavContainer .NavWrapper .NavSection .NavItem {
-    padding: .75rem 0rem;
+    padding: 0.5rem 0rem;
   }
-
 
   .MobileNavContainer .NavWrapper {
     width: 100%;
   }
 
   .SMIcon {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .NavSection {
@@ -120,7 +124,7 @@
   }
 
   .SMRow {
-    width: 10rem !important;
+    width: 8rem !important;
     display: flex;
     gap: 0rem;
   }
