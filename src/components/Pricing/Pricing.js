@@ -1,5 +1,8 @@
 import React from "react";
 import "./Pricing.css";
+import basic1 from "../../assets/PricingImgs/image0.png"
+import basic2 from "../../assets/PricingImgs/image1.png"
+import basic3 from "../../assets/PricingImgs/image2.png"
 
 function Pricing() {
   return (
@@ -33,10 +36,13 @@ function Pricing() {
           <div className="PricingTableEntry">
             <div className="sub2 pName">Basic Nail Art</div>
             <div className="sub2 pPrice">$80+</div>
-            <div className="sub2 pDesc">
+            {/* <div className="sub2 pDesc">
               One to two lines per nail, dots, two simple hearts per nail, on
               color chrome, on color cat eye, etc. (please note, I don't do
               simple french only)
+            </div> */}
+            <div className="iDesc">
+              <img src="basic1" alt="nailImg"></img>
             </div>
           </div>
           <div className="PricingTableEntry">

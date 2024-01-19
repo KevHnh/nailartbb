@@ -4,17 +4,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
 import Marquee from "react-fast-marquee";
-import img1 from "../../assets/nailart1.jpeg";
-import img2 from "../../assets/nailart2.jpeg";
-import img3 from "../../assets/nailart3.png";
-import img4 from "../../assets/nailart4.jpeg";
-import img5 from "../../assets/nailart5.jpeg";
-import img6 from "../../assets/nailart6.jpeg";
-import img7 from "../../assets/nailart7.jpeg";
-import img8 from "../../assets/nailart8.jpeg";
-import img9 from "../../assets/nailart9.jpeg";
-import img10 from "../../assets/nailart10.jpeg";
-import img11 from "../../assets/nailart11.jpeg";
+import img1 from "../../assets/LandingImgs/nailart1.jpeg";
+import img2 from "../../assets/LandingImgs/nailart2.jpeg";
+import img3 from "../../assets/LandingImgs/nailart3.png";
+import img4 from "../../assets/LandingImgs/nailart4.jpeg";
+import img5 from "../../assets/LandingImgs/nailart5.jpeg";
+import img6 from "../../assets/LandingImgs/nailart6.jpeg";
+import img7 from "../../assets/LandingImgs/nailart7.jpeg";
+import img8 from "../../assets/LandingImgs/nailart8.jpeg";
+import img9 from "../../assets/LandingImgs/nailart9.jpeg";
+import img10 from "../../assets/LandingImgs/nailart10.jpeg";
+import img11 from "../../assets/LandingImgs/nailart11.jpeg";
 
 import blob from "../../assets/webAssets/webBlob.svg"
 
