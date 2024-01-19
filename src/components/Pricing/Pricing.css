@@ -1,7 +1,6 @@
 .PricingTableContainer {
   display: flex;
   flex-direction: column;
-  overflow-x: auto;
   width: 100%;
   gap: 1rem;
 }
@@ -28,23 +27,15 @@
 }
 
 .pDesc {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
-  min-width: 30rem;
+  min-width: 45rem;
 }
 
-.iDesc {
-  width: 100%;
-  min-width: 30rem;
-}
-
-.nailImg {
+.pNailImg {
   width: 30%;
-  margin: 0px;
-  padding: 0px; 
-}
-
-.middle {
-  padding: 0% 5%; 
+  border-radius: .5rem;
 }
 
 .PricingTableHeaderMobile {
@@ -61,6 +52,7 @@
   }
 
   .PricingTableEntry {
+    width: 100%;
     flex-wrap: wrap;
   }
 
@@ -76,8 +68,14 @@
   }
 
   .pDesc {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     min-width: unset;
     margin-top: 1rem;
   }
+
+  .pNailImg {
+    border-radius: .5rem;
+  }  
 }

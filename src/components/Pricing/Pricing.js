@@ -41,10 +41,10 @@ function Pricing() {
               color chrome, on color cat eye, etc. (please note, I don't do
               simple french only)
             </div> */}
-            <div className="iDesc">
-              <img className="nailImg" src={basic1} alt="nailImg"></img>
-              <img className="nailImg middle" src={basic2} alt="nailImg"></img>
-              <img className="nailImg" src={basic3} alt="nailImg"></img>
+            <div className="pDesc">
+              <img className="pNailImg" src={basic1} alt="pNailImg"></img>
+              <img className="pNailImg" src={basic2} alt="pNailImg"></img>
+              <img className="pNailImg" src={basic3} alt="pNailImg"></img>
             </div>
           </div>
           <div className="PricingTableEntry">

@@ -55,17 +55,18 @@ function LandingPage() {
           </div>
           <div className="LPInner">
             <Marquee>
-              <img className="nailImg" src={img1} alt="nailImg"></img>
-              <img className="nailImg" src={img2} alt="nailImg"></img>
-              <img className="nailImg" src={img3} alt="nailImg"></img>
-              <img className="nailImg" src={img4} alt="nailImg"></img>
-              <img className="nailImg" src={img5} alt="nailImg"></img>
-              <img className="nailImg" src={img6} alt="nailImg"></img>
-              <img className="nailImg" src={img7} alt="nailImg"></img>
-              <img className="nailImg" src={img8} alt="nailImg"></img>
-              <img className="nailImg" src={img9} alt="nailImg"></img>
-              <img className="nailImg" src={img10} alt="nailImg"></img>
-              <img className="nailImg" src={img11} alt="nailImg"></img>
+              <div className="marqueeImgContainer"><img className="nailImg" src={img1} alt="nailImg"></img></div>
+              <div className="marqueeImgContainer"><img className="nailImg" src={img2} alt="nailImg"></img></div>
+              <div className="marqueeImgContainer"><img className="nailImg" src={img3} alt="nailImg"></img></div>
+              <div className="marqueeImgContainer"><img className="nailImg" src={img4} alt="nailImg"></img></div>
+              <div className="marqueeImgContainer"><img className="nailImg" src={img5} alt="nailImg"></img></div>
+              <div className="marqueeImgContainer"><img className="nailImg" src={img6} alt="nailImg"></img></div>
+              <div className="marqueeImgContainer"><img className="nailImg" src={img7} alt="nailImg"></img></div>
+              <div className="marqueeImgContainer"><img className="nailImg" src={img8} alt="nailImg"></img></div>
+              <div className="marqueeImgContainer"><img className="nailImg" src={img9} alt="nailImg"></img></div>
+              <div className="marqueeImgContainer"><img className="nailImg" src={img10} alt="nailImg"></img></div>
+              <div className="marqueeImgContainer"><img className="nailImg" src={img11} alt="nailImg"></img></div>
+
             </Marquee>
           </div>
         </div>
