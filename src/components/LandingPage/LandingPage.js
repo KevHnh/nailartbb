@@ -16,6 +16,8 @@ import img9 from "../../assets/nailart9.jpeg";
 import img10 from "../../assets/nailart10.jpeg";
 import img11 from "../../assets/nailart11.jpeg";
 
+import blob from "../../assets/webAssets/webBlob.svg"
+
 function LandingPage() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
   const navigate = useNavigate();
@@ -39,6 +41,8 @@ function LandingPage() {
 
   return (
     <div className="LandingPageContainer">
+      <img src={blob} className="blob b1"></img>
+      <img src={blob} className="blob b2"></img>
       <div className="LandingPageWrapper">
         <div className="LPSection">
           <div className="LPInner">

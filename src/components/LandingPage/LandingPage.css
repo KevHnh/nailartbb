@@ -17,6 +17,23 @@
   align-items: center;
 }
 
+.blob {
+  position: absolute;
+  width: 50%;
+  max-width: 50rem;
+  min-width: 20rem
+}
+
+.b1 {
+  right: -10%;
+  top: -10%;
+}
+
+.b2 {
+  left: -15%;
+  top: 15%;
+}
+
 .btnArrow {
   font-size: 1rem;
   margin-left: 1rem;
