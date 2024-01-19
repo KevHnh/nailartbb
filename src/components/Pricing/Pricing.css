@@ -17,20 +17,17 @@
 }
 
 .pName {
-  width: 100%;
-  min-width: 15rem;
+  width: 20%;
 }
 
 .pPrice {
-  width: 100%;
-  min-width: 15rem;
+  width: 20%;
 }
 
 .pDesc {
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  min-width: 45rem;
+  width: 60%;
 }
 
 .pNailImg {
