@@ -59,6 +59,10 @@
   width: 100%;
 }
 
+.MobileIcon {
+  font-size: 1.25rem !important;
+}
+
 @media screen and (max-width: 1000px) {  
   .NavWrapper {
     background-color: var(--title);

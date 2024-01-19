@@ -8,6 +8,10 @@ body {
   background: #FFF0F0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 div {
   box-sizing: border-box;
 }

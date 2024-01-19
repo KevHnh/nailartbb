@@ -65,9 +65,6 @@ function LandingPage() {
             </Marquee>
           </div>
         </div>
-        <div className="LPSection">
-          
-        </div>
       </div>
     </div>
   );

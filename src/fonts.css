@@ -70,11 +70,6 @@
   transform: translate(0.25rem);
 }
 
-
-.tableBtn:hover {
-  box-shadow: inset 22rem 0 0 0 var(--btnHover2);
-}
-
 @keyframes appear {
   0% {
     filter: blur(10px);
@@ -84,6 +79,48 @@
   }
 }
 
+/*FOOTER STYLING*/
+.footerLogo {
+  font-family: "Pompiere";
+  font-size: 2rem;
+  font-weight: 1000;
+  color: var(--nav);
+  white-space: nowrap;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.footerHeader {
+  font-family: "Poppins";
+  font-size: 1.25rem;
+  font-weight: 1000;
+  color: var(--nav);
+  white-space: nowrap;
+  cursor: default;
+  width: fit-content;
+}
+
+.footerSub {
+  font-family: "Poppins";
+  font-size: 1rem;
+  font-weight: 6000;
+  color: var(--nav);
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.footerCopyright {
+  font-family: "Poppins";
+  font-size: .9rem;
+  font-weight: 6000;
+  color: var(--nav);
+  text-decoration: none;
+  cursor: default;
+  width: fit-content;
+}
+
 @media screen and (max-width: 600px) {
   .title {
     font-size: 3rem;
@@ -91,12 +128,12 @@
   }
 
   .header {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 1000;
   }
 
   .btn {
-    font-size: 1rem;
+    font-size: .9rem;
     padding: 1rem 1.5rem;
   }
 
@@ -105,6 +142,26 @@
   }
 
   .sub2 {
-    font-size: 1rem;
+    font-size: .9rem;
+  }
+
+  .footerLogo {
+    font-size: 1.5rem;
+    font-weight: 1000;
+  }
+  
+  .footerHeader {
+    font-size: 1.1rem;
+    font-weight: 1000;
+  }
+  
+  .footerSub {
+    font-size: .9rem;
+    font-weight: 6000;
+  }
+  
+  .footerCopyright {
+    font-size: .8rem;
+    font-weight: 6000;
   }
 }
