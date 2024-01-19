@@ -37,6 +37,16 @@
   min-width: 30rem;
 }
 
+.nailImg {
+  width: 30%;
+  margin: 0px;
+  padding: 0px; 
+}
+
+.middle {
+  padding: 0% 5%; 
+}
+
 .PricingTableHeaderMobile {
   display: none;
 }

@@ -42,7 +42,9 @@ function Pricing() {
               simple french only)
             </div> */}
             <div className="iDesc">
-              <img src="basic1" alt="nailImg"></img>
+              <img className="nailImg" src={basic1} alt="nailImg"></img>
+              <img className="nailImg middle" src={basic2} alt="nailImg"></img>
+              <img className="nailImg" src={basic3} alt="nailImg"></img>
             </div>
           </div>
           <div className="PricingTableEntry">
