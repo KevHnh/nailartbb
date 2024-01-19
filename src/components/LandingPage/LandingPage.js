@@ -51,19 +51,22 @@ function LandingPage() {
           </div>
           <div className="LPInner">
             <Marquee>
-              <img className="nailImg" src={img1}></img>
-              <img className="nailImg" src={img2}></img>
-              <img className="nailImg" src={img3}></img>
-              <img className="nailImg" src={img4}></img>
-              <img className="nailImg" src={img5}></img>
-              <img className="nailImg" src={img6}></img>
-              <img className="nailImg" src={img7}></img>
-              <img className="nailImg" src={img8}></img>
-              <img className="nailImg" src={img9}></img>
-              <img className="nailImg" src={img10}></img>
-              <img className="nailImg" src={img11}></img>
+              <img className="nailImg" src={img1} alt="nailImg"></img>
+              <img className="nailImg" src={img2} alt="nailImg"></img>
+              <img className="nailImg" src={img3} alt="nailImg"></img>
+              <img className="nailImg" src={img4} alt="nailImg"></img>
+              <img className="nailImg" src={img5} alt="nailImg"></img>
+              <img className="nailImg" src={img6} alt="nailImg"></img>
+              <img className="nailImg" src={img7} alt="nailImg"></img>
+              <img className="nailImg" src={img8} alt="nailImg"></img>
+              <img className="nailImg" src={img9} alt="nailImg"></img>
+              <img className="nailImg" src={img10} alt="nailImg"></img>
+              <img className="nailImg" src={img11} alt="nailImg"></img>
             </Marquee>
           </div>
+        </div>
+        <div className="LPSection">
+          
         </div>
       </div>
     </div>

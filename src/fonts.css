@@ -1,10 +1,10 @@
 :root {
   --background1: #fa9786;
-  --title: #4F2222;
+  --title: #764248;
   --nav: #fafafa;
-  --sub1: #4F2222;
-  --sub2: #4F2222;
-  --btn: #4F2222;
+  --sub1: #764248;
+  --sub2: #764248;
+  --btn: #764248;
   --btnHover1: #a48d88;
   --btnHover2: #a48d88;
   --border: #fafafa;
@@ -84,27 +84,27 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
-  /* .title {
-    font-size: 6rem;
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 3rem;
     font-weight: 1000;
   }
 
   .header {
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-weight: 1000;
   }
 
   .btn {
-    font-size: 1.25rem;
+    font-size: 1rem;
     padding: 1rem 1.5rem;
   }
 
   .sub1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .sub2 {
     font-size: 1rem;
-  } */
+  }
 }

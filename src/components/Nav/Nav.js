@@ -17,7 +17,6 @@ function Nav() {
   }
 
   useEffect(() => {
-    console.log(screenWidth);
     const handleResize = () => {
       setScreenWidth(window.innerWidth);
     };

@@ -53,6 +53,19 @@
   border-radius: 0.5rem;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
+  .nailImg {
+    width: 14rem;
+    margin: 0rem 1rem;
+    border-radius: 0.5rem;
+  }
 
+  .LPInner > .btn {
+    margin-top: 2rem;
+  } 
+
+  .LPInner:nth-child(1) {
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+  }
 }

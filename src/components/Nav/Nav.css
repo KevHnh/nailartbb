@@ -59,24 +59,33 @@
   width: 100%;
 }
 
-@media screen and (max-width: 1000px) {
-  .NavContainer {
-    padding: 0rem;
-  }
-
+@media screen and (max-width: 1000px) {  
   .NavWrapper {
     background-color: var(--title);
-    margin: 0rem;
+    margin: 0rem 1.5rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: space-between;
     width: 100%;
     max-width: 80rem;
     padding: 0rem 1.5rem;
-    border-radius: 0rem;
+    border-radius: .5rem;
+  }
+
+  .MobileNavContainer > .NavWrapper {
+    margin: 0rem;
+    border-radius: .5rem;
+    transform: translateY(-.75rem);
+  }
+
+  .MobileNavContainer {
+    display: flex;
+    height: fit-content;
+    width: 100%;
   }
 
   .NavItem {
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 600;
   }
 
