@@ -120,7 +120,7 @@ function Pricing() {
           </a>{" "}
           and I will gladly help.
         </div>
-        <div className="header">Feet Services</div>
+        <div className="header">Pedicures</div>
         <div className="PricingTableContainer">
           <div className="PricingTableHeaderMobile">
             <div className="sub1">SERVICE | STARTING PRICE | DESCRIPTION</div>
