@@ -38,12 +38,12 @@ function Pricing() {
         </div>
         <div className="PricingTableContainer">
           <div className="PricingTableHeaderMobile">
-            <div className="sub1">Tier | Starting Price | Description</div>
+            <div className="sub1">TIER | STARTING PRICE | DESCRIPTION</div>
           </div>
           <div className="PricingTableHeader">
-            <div className="sub1 pName">Tiers</div>
-            <div className="sub1 pPrice">Starting Price</div>
-            <div className="sub1 pDesc">Description</div>
+            <div className="sub1 pName">TIER</div>
+            <div className="sub1 pPrice">STARTING PRICE</div>
+            <div className="sub1 pDesc">DESCRIPTION</div>
           </div>
           <div className="PricingTableEntry">
             <div className="sub2 pName">Basic Nail Art</div>
@@ -120,15 +120,37 @@ function Pricing() {
           </a>{" "}
           and I will gladly help.
         </div>
+        <div className="header">Feet Services</div>
+        <div className="PricingTableContainer">
+          <div className="PricingTableHeaderMobile">
+            <div className="sub1">SERVICE | STARTING PRICE | DESCRIPTION</div>
+          </div>
+          <div className="PricingTableHeader">
+            <div className="sub1 pName">SERVICE</div>
+            <div className="sub1 pPrice">STARTING PRICE</div>
+            <div className="sub1 pDesc">DESCRIPTION</div>
+          </div>
+          <div className="PricingTableEntry">
+            <div className="sub2 pName">Express Pedicures w/ Dazzle Dry</div>
+            <div className="sub2 pPrice">$80+</div>
+            <div className="sub2 pDesc">
+              The signature pedicure is waterless to avoid fungus. It includes
+              cleansing with an anti-bacterial spray, nail care, foot filing,
+              and a gentle foot massage with moisturizing lotion. The final
+              touch is Dazzle Dry, a non-toxic and cruelty-free nail polish that
+              dries quickly.
+            </div>
+          </div>
+        </div>
         <div className="header">Additional Services</div>
         <div className="PricingTableContainer">
           <div className="PricingTableHeaderMobile">
-            <div className="sub1">Service | Starting Price | Description</div>
+            <div className="sub1">SERVICE | STARTING PRICE | DESCRIPTION</div>
           </div>
           <div className="PricingTableHeader">
-            <div className="sub1 pName">Service</div>
-            <div className="sub1 pPrice">Starting Price</div>
-            <div className="sub1 pDesc">Description</div>
+            <div className="sub1 pName">SERVICE</div>
+            <div className="sub1 pPrice">STARTING PRICE</div>
+            <div className="sub1 pDesc">DESCRIPTION</div>
           </div>
           <div className="PricingTableEntry">
             <div className="sub2 pName">Extensions</div>
@@ -143,17 +165,6 @@ function Pricing() {
             <div className="sub2 pDesc">
               I offer complimentary fixes within 48 hours of completion,
               anything past the 48 hours will cost $10
-            </div>
-          </div>
-          <div className="PricingTableEntry">
-            <div className="sub2 pName">Express Pedicures w/ Dazzle Dry</div>
-            <div className="sub2 pPrice">$80+</div>
-            <div className="sub2 pDesc">
-              The signature pedicure is waterless to avoid fungus. It includes
-              cleansing with an anti-bacterial spray, nail care, foot filing,
-              and a gentle foot massage with moisturizing lotion. The final
-              touch is Dazzle Dry, a non-toxic and cruelty-free nail polish that
-              dries quickly.
             </div>
           </div>
         </div>
