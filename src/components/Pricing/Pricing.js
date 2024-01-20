@@ -1,8 +1,20 @@
 import React from "react";
 import "./Pricing.css";
-import basic1 from "../../assets/PricingImgs/image0.png"
-import basic2 from "../../assets/PricingImgs/image1.png"
-import basic3 from "../../assets/PricingImgs/image2.png"
+import basic1 from "../../assets/PricingImgs/basic (1).jpeg";
+import basic2 from "../../assets/PricingImgs/basic (2).jpeg";
+import basic3 from "../../assets/PricingImgs/basic (3).jpeg";
+import intermediate1 from "../../assets/PricingImgs/intermediate (1).jpeg";
+import intermediate2 from "../../assets/PricingImgs/intermediate (2).jpeg";
+import intermediate3 from "../../assets/PricingImgs/intermediate (3).jpeg";
+import advanced1 from "../../assets/PricingImgs/advanced (1).jpeg";
+import advanced2 from "../../assets/PricingImgs/advanced (2).jpeg";
+import advanced3 from "../../assets/PricingImgs/advanced (3).jpeg";
+import intricate1 from "../../assets/PricingImgs/intricate (1).jpeg";
+import intricate2 from "../../assets/PricingImgs/intricate (2).jpeg";
+import intricate3 from "../../assets/PricingImgs/intricate (3).jpeg";
+import extravagant1 from "../../assets/PricingImgs/extravagant (1).jpeg";
+import extravagant2 from "../../assets/PricingImgs/extravagant (2).jpeg";
+import extravagant3 from "../../assets/PricingImgs/extravagant (3).jpeg";
 
 function Pricing() {
   return (
@@ -51,32 +63,49 @@ function Pricing() {
             <div className="sub2 pName">Intermediate Nail Art</div>
             <div className="sub2 pPrice">$100+</div>
             <div className="sub2 pDesc">
-              Hand painted designs, minimal 3D art, airbrush designs, minimal
-              mixed media, etc
+              <img
+                className="pNailImg"
+                src={intermediate1}
+                alt="pNailImg"
+              ></img>
+              <img
+                className="pNailImg"
+                src={intermediate2}
+                alt="pNailImg"
+              ></img>
+              <img
+                className="pNailImg"
+                src={intermediate3}
+                alt="pNailImg"
+              ></img>
             </div>
           </div>
           <div className="PricingTableEntry">
             <div className="sub2 pName">Advanced Nail Art</div>
             <div className="sub2 pPrice">$120+</div>
             <div className="sub2 pDesc">
-              3D fruits, some hand painted designs, multiple charms, etc
+              <img className="pNailImg" src={advanced1} alt="pNailImg"></img>
+              <img className="pNailImg" src={advanced2} alt="pNailImg"></img>
+              <img className="pNailImg" src={advanced3} alt="pNailImg"></img>
             </div>
           </div>
           <div className="PricingTableEntry">
             <div className="sub2 pName">Intricate Nail Art</div>
             <div className="sub2 pPrice">$140+</div>
             <div className="sub2 pDesc">
-              Flowers, ink, chrome designs, encapsulations, etc
+              <img className="pNailImg" src={intricate1} alt="pNailImg"></img>
+              <img className="pNailImg" src={intricate2} alt="pNailImg"></img>
+              <img className="pNailImg" src={intricate3} alt="pNailImg"></img>
             </div>
           </div>
 
           <div className="PricingTableEntry">
-            <div className="sub2 pName">Advanced Nail Art</div>
+            <div className="sub2 pName">Extravagant Nail Art</div>
             <div className="sub2 pPrice">$160+</div>
             <div className="sub2 pDesc">
-              Any art that takes color mixing, linen patterns, paintings
-              inspired nails, ultimate encapsulations, ultimate 3D handmade
-              charms, etc{" "}
+              <img className="pNailImg" src={extravagant1} alt="pNailImg"></img>
+              <img className="pNailImg" src={extravagant2} alt="pNailImg"></img>
+              <img className="pNailImg" src={extravagant3} alt="pNailImg"></img>
             </div>
           </div>
         </div>
