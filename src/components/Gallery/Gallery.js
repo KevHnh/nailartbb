@@ -6,7 +6,15 @@ function Gallery() {
     <div className="GlobalContainer">
       <div className="GlobalWrapper">
         <div className="header">Gallery</div>
-        <div className="sub2">Your next set can be anything you imagine.</div>
+        <div className="sub2">
+          Don't know what kind of design you want for your next set? Find some
+          inspiration here!
+        </div>
+        <img className="galleryImg"
+          src={
+            "https://upload.wikimedia.org/wikipedia/en/2/28/Bloodgangsign.jpg?20090403113135"
+          }
+        />
       </div>
     </div>
   );

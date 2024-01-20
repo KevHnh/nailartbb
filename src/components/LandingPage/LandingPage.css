@@ -62,6 +62,10 @@
   margin-bottom: 5rem;
 }
 
+.LPInner:nth-child(2) {
+  height: 440px;
+}
+
 .LPInner > .btn {
   margin-top: 3rem;
 } 
@@ -97,6 +101,10 @@
   .LPInner:nth-child(1) {
     margin-top: 10rem;
     margin-bottom: 4rem;
+  }
+
+  .LPInner:nth-child(2) {
+    height: 340px;
   }
 
   .b1 {
