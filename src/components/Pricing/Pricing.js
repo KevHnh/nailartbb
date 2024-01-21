@@ -23,7 +23,7 @@ function Pricing() {
         <div className="header">Gel Manicures</div>
         <div className="sub2">
           The gel manicures are performed on your natural nail with a waterless
-          manicure. It includes nail shaping and Russian Cuticle Care. If you're
+          manicure. It includes nail shaping and Russian Cuticle Care. If your
           preference is to just push back the cuticle, please let me know.
           Products used are from{" "}
           <a
@@ -33,7 +33,7 @@ function Pricing() {
           >
             Kokoist
           </a>
-          , a japanese brand that is vegan, and 9-free non toxic. Extensions are
+          , a japanese brand that is vegan and 9-free non toxic. Extensions are
           an add on option for $20.
         </div>
         <div className="PricingTableContainer">
@@ -110,7 +110,7 @@ function Pricing() {
           </div>
         </div>
         <div className="sub2">
-          If unsure as to what kind of tier your design is, please email{" "}
+          If you are unsure as to what kind of tier your design is, please email{" "}
           <a
             className="sub2"
             href="mailto:bb.love.nails92@gmail.com"
@@ -132,9 +132,9 @@ function Pricing() {
           </div>
           <div className="PricingTableEntry">
             <div className="sub2 pName">Express Pedicures w/ Dazzle Dry</div>
-            <div className="sub2 pPrice">$80+</div>
+            <div className="sub2 pPrice">$45</div>
             <div className="sub2 pDesc">
-              The signature pedicure is waterless to avoid fungus. It includes
+              My signature pedicure is waterless to avoid fungus. It includes
               cleansing with an anti-bacterial spray, nail care, foot filing,
               and a gentle foot massage with moisturizing lotion. The final
               touch is Dazzle Dry, a non-toxic and cruelty-free nail polish that

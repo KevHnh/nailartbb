@@ -7,9 +7,9 @@ function FAQ() {
       <div className="GlobalWrapper">
         <div className="header">FAQ</div>
         <div className="sub2">
-          I get a lot of questions, if you have a question see if it is answered
-          on here first. If not, I would be happy to answer any other questions
-          you may have.
+          I get a lot of questions. If you have a question please check to see
+          if it is answered here first. If not, I would be happy to answer any
+          other questions you may have.
         </div>
         <div className="FAQContainer">
           <div className="FAQEntry">
@@ -32,8 +32,8 @@ function FAQ() {
           <div className="FAQEntry">
             <div className="sub1">HOW LONG WILL THEY LAST?</div>
             <div className="sub2">
-              2-6 weeks, depending on your life style. Remember, nails are not
-              tools.
+              They last 2-6 weeks, depending on your life style. Remember, nails
+              are not tools.
             </div>
           </div>
           <div className="FAQEntry">
@@ -41,7 +41,7 @@ function FAQ() {
             <div className="sub2">
               Every two weeks is recommended, if you take longer than 2 weeks, a
               $10 fee will be added to cover the cost of product. More space to
-              fill more product it takes and more time.
+              fill, more product to use, and more time it will take.
             </div>
           </div>
           <div className="FAQEntry">
@@ -50,7 +50,7 @@ function FAQ() {
             </div>
             <div className="sub2">
               Your nails are dead material (keratin) which is the same protein
-              as your hair. They are dead skin cells. Therefore they do not need
+              as your hair, they are dead skin cells. Therefore they do not need
               oxygen to breathe. Whatever you do, DO NOT peel or rip off your
               enhancements, this is extremely damaging to your nails. I
               recommend getting your enhacements removed by a professional.
@@ -61,8 +61,8 @@ function FAQ() {
               WHATS THE DIFFERENCE BETWEEN GEL POLISH AND SHELLAC?
             </div>
             <div className="sub2">
-              Shellac IS a gel polish. Shellac is just the Brand of a Gel polish
-              Line. Think of it like Coke vs Pepsi, they are basically the same
+              Shellac IS a gel polish. Shellac is just the brand of a Gel polish
+              line. Think of it like Coke vs Pepsi, they are basically the same
               thing but just different brand names. Shellac is just a well known
               BRAND of GEL POLISH. I currently do not offer shellac nail
               products, I have a variety of different Gel Polish brands.
@@ -71,20 +71,21 @@ function FAQ() {
           <div className="FAQEntry">
             <div className="sub1">HOW LONG DOES THE APPOINTMENT TAKE?</div>
             <div className="sub2">
-              It depends on shape, length, and the nail design. I book two and a
-              half hours for a full set of nails depending the art, Generally, a
-              gel fill with nail art is about 2 hours or plus depending on
-              design. Fills take less time because there is already product on
-              the nail from your previous appointment. Good nails take time and
-              attention to detail, and I take pride in the nails that I create.
-              PLEASE ALLOT ENOUGH TIME FOR YOUR APPOINTMENT IN YOUR SCHEDULE.
+              It depends on shape, length, and nail design. I book two and a
+              half hours for a full set of nails depending on the art.
+              Generally, a gel fill with nail art is about 2 hours or plus
+              depending on the intricacy of the design. Fills take less time because
+              there is already product on the nail from your previous
+              appointment. Good nails take time and attention to detail, and I
+              take pride in the nails that I create. PLEASE ALLOT ENOUGH TIME
+              FOR YOUR APPOINTMENT IN YOUR SCHEDULE.
             </div>
           </div>
           <div className="FAQEntry">
             <div className="sub1">WHY DO GEL NAILS TAKE SO LONG?</div>
             <div className="sub2">
               I want you to be satisfied with your nails, so I take extra care
-              and attention to details so you leave happy. I provide a russian
+              and attention to details so you will leave happy. I provide a russian
               style manicure to the eponychium and depending on the art it will
               take some time.
             </div>
@@ -94,14 +95,14 @@ function FAQ() {
               WHY DOES THE GEL GET HOT WHEN ITS CURING?
             </div>
             <div className="sub2">
-              The reason SOME people may feel a heat spike when the gel is in
-              the LED light is because that is the moment the Gel is changing
+              The reason SOME people may feel a heat spike when the gel is under
+              the LED light is because that is the moment the gel is changing
               state, from a liquid to a solid. The molecules are changing, and
               as they change, they heat up. If you feel a heat spike, it only
               lasts for 1-3 seconds, after that it is done. I tell all my
               clients to REMOVE your hand from the light as soon as you feel it
               getting even a little warm, You do not need to bear thru it, we
-              can just cure it again (it wont heat up again, only the 1 time as
+              can just cure it again (it wont heat up again, only the first time as
               it hardens).
             </div>
           </div>

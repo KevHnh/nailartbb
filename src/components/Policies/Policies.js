@@ -34,7 +34,7 @@ function Policies() {
               rescheduling, or adjusting the service altogether.
             </div>
             <div className="sub2">
-              If it’s your first time coming, please make yourself familiar with
+              If it is your first time coming, please make yourself familiar with
               the area and/or transportation routes before your appointment. I
               understand that situations may arise, but it will be up to my
               discretion if the service can be completed in the event that you
@@ -45,7 +45,14 @@ function Policies() {
               if this is the case you will need to reschedule your appointment
               and will be charged the full price for the service missed. If you
               are going to be late, PLEASE LET ME KNOW AS EARLY AS POSSIBLE by
-              emailing me at bb.love.nails92@gmail.com.
+              emailing me at {" "}
+          <a
+            className="sub2"
+            href="mailto:bb.love.nails92@gmail.com"
+            target="_blank"
+          >
+            bb.love.nails92@gmail.com
+          </a>{"."}
             </div>
           </div>
           <div className="PoliciesEntry">
@@ -65,7 +72,7 @@ function Policies() {
             <div className="sub2">
               I have a “no refund policy” on services completed in the salon.
               However, if for any reason you are unhappy with the service you
-              received, please notify me immediatley! I would be more than happy
+              received, please notify me immediately! I would be more than happy
               to make the matter right, either by fixing, or correcting a
               service. I offer complimentary fixes within 48 hours of
               completion.
@@ -104,6 +111,8 @@ function Policies() {
               appointments at 2:30pm and last appointment of the day is booked
               at 5pm • My ideal client would be individuals who are interested
               in some form of nail art each service, fromsimple to extreme.
+
+              ^ diff hours needs to be fixed ^
             </div>
           </div>
           <div className="PoliciesEntry">
