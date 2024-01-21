@@ -11,8 +11,7 @@
 }
 
 .FooterWrapper {
-  /* background-color: var(--title); */
-  background-color: #8F8A83;
+  background-color: var(--title);
   margin: 1rem 1.5rem;
   display: flex;
   justify-content: space-between;
