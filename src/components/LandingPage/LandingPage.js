@@ -8,7 +8,6 @@ import img1 from "../../assets/LandingImgs/nailart1.jpeg";
 import img2 from "../../assets/LandingImgs/nailart2.jpeg";
 import img3 from "../../assets/LandingImgs/nailart3.png";
 import img4 from "../../assets/LandingImgs/nailart4.jpeg";
-import img5 from "../../assets/LandingImgs/nailart5.jpeg";
 import img6 from "../../assets/LandingImgs/nailart6.jpeg";
 import img7 from "../../assets/LandingImgs/nailart7.jpeg";
 import img8 from "../../assets/LandingImgs/nailart8.jpeg";
@@ -21,8 +20,7 @@ import blob from "../../assets/webAssets/webBlob.svg"
 function LandingPage() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
   const navigate = useNavigate();
-  const imgs = [img1, img2, img3, img4, img5, img6, img7, img8];
-
+  
   function redirect(path) {
     navigate(path);
     window.scroll(0, 0);
@@ -59,14 +57,12 @@ function LandingPage() {
               <div className="marqueeImgContainer"><img className="nailImg" src={img2} alt="nailImg"></img></div>
               <div className="marqueeImgContainer"><img className="nailImg" src={img3} alt="nailImg"></img></div>
               <div className="marqueeImgContainer"><img className="nailImg" src={img4} alt="nailImg"></img></div>
-              {/* <div className="marqueeImgContainer"><img className="nailImg" src={img5} alt="nailImg"></img></div> */}
               <div className="marqueeImgContainer"><img className="nailImg" src={img6} alt="nailImg"></img></div>
               <div className="marqueeImgContainer"><img className="nailImg" src={img7} alt="nailImg"></img></div>
               <div className="marqueeImgContainer"><img className="nailImg" src={img8} alt="nailImg"></img></div>
               <div className="marqueeImgContainer"><img className="nailImg" src={img9} alt="nailImg"></img></div>
               <div className="marqueeImgContainer"><img className="nailImg" src={img10} alt="nailImg"></img></div>
               <div className="marqueeImgContainer"><img className="nailImg" src={img11} alt="nailImg"></img></div>
-
             </Marquee>
           </div>
         </div>
