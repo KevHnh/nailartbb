@@ -142,13 +142,13 @@ function Pricing() {
             </div>
           </div>
         </div>
-        <div className="header">Additional Services</div>
+        <div className="header">Extras</div>
         <div className="PricingTableContainer">
           <div className="PricingTableHeaderMobile">
-            <div className="sub1">SERVICE | STARTING PRICE | DESCRIPTION</div>
+            <div className="sub1">EXTRA | STARTING PRICE | DESCRIPTION</div>
           </div>
           <div className="PricingTableHeader">
-            <div className="sub1 pName">SERVICE</div>
+            <div className="sub1 pName">EXTRA</div>
             <div className="sub1 pPrice">STARTING PRICE</div>
             <div className="sub1 pDesc">DESCRIPTION</div>
           </div>
@@ -163,8 +163,7 @@ function Pricing() {
             <div className="sub2 pName">Nail Fix</div>
             <div className="sub2 pPrice">$10</div>
             <div className="sub2 pDesc">
-              I offer complimentary fixes within 48 hours of completion,
-              anything past the 48 hours will cost $10
+              There will be an additional charge for any broken nails.
             </div>
           </div>
         </div>
