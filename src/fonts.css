@@ -64,6 +64,7 @@
   border-radius: 0.5rem;
   color: var(--nav);
   white-space: nowrap;
+  text-decoration: none;
 }
 
 .btn:hover .btnArrow {

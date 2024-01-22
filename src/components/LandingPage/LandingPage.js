@@ -15,12 +15,12 @@ import img9 from "../../assets/LandingImgs/nailart9.jpeg";
 import img10 from "../../assets/LandingImgs/nailart10.jpeg";
 import img11 from "../../assets/LandingImgs/nailart11.jpeg";
 
-import blob from "../../assets/webAssets/webBlob.svg"
+import blob from "../../assets/webAssets/webBlob.svg";
 
 function LandingPage() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
   const navigate = useNavigate();
-  
+
   function redirect(path) {
     navigate(path);
     window.scroll(0, 0);
@@ -46,23 +46,44 @@ function LandingPage() {
           <div className="LPInner">
             <div className="title">ÉCLAT NAIL ART</div>
             <div className="sub1">Gel X and Japanese Gel</div>
-            <div className="btn">
+            <a className="btn" href="https://squareup.com/appointments/book/5d1fhn5lw71nrf/L3P583V5QVNBW/start" rel="nofollow" target="_blank">
               Book an Appointment
+              
               <FontAwesomeIcon className="btnArrow" icon={faArrowRight} />
-            </div>
+            </a>
           </div>
           <div className="LPInner">
             <Marquee>
-              <div className="marqueeImgContainer"><img className="nailImg" src={img1} alt="nailImg"></img></div>
-              <div className="marqueeImgContainer"><img className="nailImg" src={img2} alt="nailImg"></img></div>
-              <div className="marqueeImgContainer"><img className="nailImg" src={img3} alt="nailImg"></img></div>
-              <div className="marqueeImgContainer"><img className="nailImg" src={img4} alt="nailImg"></img></div>
-              <div className="marqueeImgContainer"><img className="nailImg" src={img6} alt="nailImg"></img></div>
-              <div className="marqueeImgContainer"><img className="nailImg" src={img7} alt="nailImg"></img></div>
-              <div className="marqueeImgContainer"><img className="nailImg" src={img8} alt="nailImg"></img></div>
-              <div className="marqueeImgContainer"><img className="nailImg" src={img9} alt="nailImg"></img></div>
-              <div className="marqueeImgContainer"><img className="nailImg" src={img10} alt="nailImg"></img></div>
-              <div className="marqueeImgContainer"><img className="nailImg" src={img11} alt="nailImg"></img></div>
+              <div className="marqueeImgContainer">
+                <img className="nailImg" src={img1} alt="nailImg"></img>
+              </div>
+              <div className="marqueeImgContainer">
+                <img className="nailImg" src={img2} alt="nailImg"></img>
+              </div>
+              <div className="marqueeImgContainer">
+                <img className="nailImg" src={img3} alt="nailImg"></img>
+              </div>
+              <div className="marqueeImgContainer">
+                <img className="nailImg" src={img4} alt="nailImg"></img>
+              </div>
+              <div className="marqueeImgContainer">
+                <img className="nailImg" src={img6} alt="nailImg"></img>
+              </div>
+              <div className="marqueeImgContainer">
+                <img className="nailImg" src={img7} alt="nailImg"></img>
+              </div>
+              <div className="marqueeImgContainer">
+                <img className="nailImg" src={img8} alt="nailImg"></img>
+              </div>
+              <div className="marqueeImgContainer">
+                <img className="nailImg" src={img9} alt="nailImg"></img>
+              </div>
+              <div className="marqueeImgContainer">
+                <img className="nailImg" src={img10} alt="nailImg"></img>
+              </div>
+              <div className="marqueeImgContainer">
+                <img className="nailImg" src={img11} alt="nailImg"></img>
+              </div>
             </Marquee>
           </div>
         </div>
