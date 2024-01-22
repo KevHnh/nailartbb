@@ -1,9 +1,12 @@
 import React from "react";
 import "./Hygienic.css";
+import blob from "../../assets/webAssets/webBlob.svg";
 
 function Hygienic() {
   return (
     <div className="GlobalContainer">
+      <img src={blob} className="blob b1"></img>
+      <img src={blob} className="blob b2"></img>
       <div className="GlobalWrapper">
         <div className="header">Hygienic Services</div>
         <div className="PoliciesContainer">

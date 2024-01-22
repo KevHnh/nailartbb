@@ -1,6 +1,7 @@
 import React from "react";
 import "./Error.css";
 import { useNavigate } from "react-router-dom";
+import blob from "../../assets/webAssets/webBlob.svg"
 
 function Error() {
   const navigate = useNavigate();
@@ -12,6 +13,8 @@ function Error() {
 
   return (
     <div className="GlobalContainer">
+      <img src={blob} className="blob b1"></img>
+      <img src={blob} className="blob b2"></img>
       <div className="GlobalWrapper">
         <div className="header">Oops! Looks like you got lost</div>
         <div className="sub2">Let's get you back on track.</div>

@@ -1,9 +1,12 @@
 import React from "react";
 import "./Policies.css";
+import blob from "../../assets/webAssets/webBlob.svg"
 
 function Policies() {
   return (
     <div className="GlobalContainer">
+      <img src={blob} className="blob b1"></img>
+      <img src={blob} className="blob b2"></img>
       <div className="GlobalWrapper">
         <div className="header">Policies</div>
         <div className="sub2">
