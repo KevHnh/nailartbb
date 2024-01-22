@@ -59,7 +59,7 @@ function LandingPage() {
               <div className="marqueeImgContainer"><img className="nailImg" src={img2} alt="nailImg"></img></div>
               <div className="marqueeImgContainer"><img className="nailImg" src={img3} alt="nailImg"></img></div>
               <div className="marqueeImgContainer"><img className="nailImg" src={img4} alt="nailImg"></img></div>
-              <div className="marqueeImgContainer"><img className="nailImg" src={img5} alt="nailImg"></img></div>
+              {/* <div className="marqueeImgContainer"><img className="nailImg" src={img5} alt="nailImg"></img></div> */}
               <div className="marqueeImgContainer"><img className="nailImg" src={img6} alt="nailImg"></img></div>
               <div className="marqueeImgContainer"><img className="nailImg" src={img7} alt="nailImg"></img></div>
               <div className="marqueeImgContainer"><img className="nailImg" src={img8} alt="nailImg"></img></div>
