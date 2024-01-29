@@ -50,9 +50,9 @@ function Nav() {
           <div className="MobileNavContainer">
             <div className="NavWrapper">
               <div className="NavSection">
-                <a className="NavItem" onClick={() => redirect("Gallery")}>
+                {/* <a className="NavItem" onClick={() => redirect("Gallery")}>
                   Gallery
-                </a>
+                </a> */}
                 <a className="NavItem" onClick={() => redirect("Pricing")}>
                   Pricing
                 </a>
@@ -100,9 +100,9 @@ function Nav() {
           </a>
         </div>
         <div className="NavSection">
-          <a className="NavItem" onClick={() => redirect("Gallery")}>
+          {/* <a className="NavItem" onClick={() => redirect("Gallery")}>
             Gallery
-          </a>
+          </a> */}
           <a className="NavItem" onClick={() => redirect("Pricing")}>
             Pricing
           </a>

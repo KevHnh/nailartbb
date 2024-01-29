@@ -104,7 +104,7 @@ function FAQ() {
               as they change, they heat up. If you feel a heat spike, it only
               lasts for 1-3 seconds, after that it is done. I tell all my
               clients to REMOVE your hand from the light as soon as you feel it
-              getting even a little warm, You do not need to bare thru it, we
+              getting even a little warm, You do not need to bare through it, we
               can just cure it again (it wont heat up again, only the first time as
               it hardens).
             </div>
