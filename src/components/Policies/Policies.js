@@ -17,7 +17,7 @@ function Policies() {
           <div className="PoliciesEntry">
             <div className="sub1">MANDATORY DEPOSIT POLICY</div>
             <div className="sub2">
-              A $50 deposit through Zelle is required in order to hold your
+              A $40 deposit through Zelle is required in order to hold your
               appointment. Deposits are made out to denisse_15_ms@hotmail.com
             </div>
           </div>

@@ -15,7 +15,7 @@ import intricate3 from "../../assets/PricingImgs/intricate (3).jpeg";
 import extravagant1 from "../../assets/PricingImgs/extravagant (1).jpeg";
 import extravagant2 from "../../assets/PricingImgs/extravagant (2).jpeg";
 import extravagant3 from "../../assets/PricingImgs/extravagant (3).jpeg";
-import blob from "../../assets/webAssets/webBlob.svg"
+import blob from "../../assets/webAssets/webBlob.svg";
 
 function Pricing() {
   return (
@@ -23,6 +23,10 @@ function Pricing() {
       <img src={blob} className="blob b1"></img>
       <img src={blob} className="blob b2"></img>
       <div className="GlobalWrapper">
+        <div class="sub2">
+          A $40 deposit through Zelle is required in order to hold your
+          appointment. Deposits are made out to denisse_15_ms@hotmail.com
+        </div>
         <div className="header">Gel Manicures</div>
         <div className="sub2">
           The gel manicures are performed on your natural nail with a waterless
