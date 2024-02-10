@@ -21,6 +21,7 @@
 
 .blob {
   position: absolute;
+  user-select: none;
   width: 50%;
   max-width: 50rem;
   min-width: 20rem

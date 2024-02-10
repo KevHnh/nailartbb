@@ -36,16 +36,24 @@ function Footer() {
           <div className="FooterCol">
             <a className="footerHeader">Appointments</a>
             <a className="footerSub">Book Now</a>
-            <a className="footerSub" onClick={() => redirect("Policies")}>Store Policies</a>
-            <a className="footerSub" onClick={() => redirect("Hygienic")}>Hygienic Policies</a>
+            <a className="footerSub" onClick={() => redirect("Policies")}>
+              Store Policies
+            </a>
+            <a className="footerSub" onClick={() => redirect("Hygienic")}>
+              Hygienic Policies
+            </a>
           </div>
           <div className="FooterCol">
             <a className="footerHeader">Resources</a>
-            <a className="footerSub" onClick={() => redirect("Gallery")}>Gallery</a>
-            <a className="footerSub" onClick={() => redirect("Pricing")}>Pricing</a>
-            <a className="footerSub" onClick={() => redirect("FAQ")}>FAQ</a>
-            <a className="footerSub">Privacy Policy</a>
-            <a className="footerSub">Terms of Service</a>
+            <a className="footerSub" onClick={() => redirect("Pricing")}>
+              Pricing
+            </a>
+            <a className="footerSub" onClick={() => redirect("FAQ")}>
+              FAQ
+            </a>
+            <a className="footerSub" onClick={() => redirect("Privacy")}>
+              Privacy Policy
+            </a>
           </div>
           <div className="FooterCol">
             <a className="footerHeader">Contact</a>
@@ -65,7 +73,7 @@ function Footer() {
             </a>
             <a
               className="footerSub"
-              href="https://www.instagram.com/bb.love.nails92/"
+              href="mailto:bb.love.nails92@gmail.com"
               target="_blank"
             >
               Email

@@ -10,6 +10,7 @@ import Gallery from "./components/Gallery/Gallery";
 import Error from "./components/Error/Error";
 import Hygienic from "./components/Hygienic/Hygienic";
 import Footer from "./components/Footer/Footer";
+import Privacy from "./components/Privacy/Privacy";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/Policies" element={<Policies />}></Route>
           <Route path="/Gallery" element={<Gallery />}></Route>
           <Route path="/Hygienic" element={<Hygienic />}></Route>
+          <Route path="/Privacy" element={<Privacy />}></Route>
         </Routes>
         <Footer />
       </Router>
