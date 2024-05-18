@@ -45,21 +45,31 @@ function Pricing() {
         </div>
         <div className="PricingTableContainer">
           <div className="PricingTableHeaderMobile">
-            <div className="sub1">TIER | STARTING PRICE | DESCRIPTION</div>
+            <div className="sub1">TIER | STARTING PRICE | DESCRIPTIONS</div>
           </div>
           <div className="PricingTableHeader">
             <div className="sub1 pName">TIER</div>
             <div className="sub1 pPrice">STARTING PRICE</div>
-            <div className="sub1 pDesc">DESCRIPTION</div>
+            <div className="sub1 pDesc">DESCRIPTIONS</div>
+          </div>
+          <div className="PricingTableEntry">
+            <div className="sub2 pName">Regular Manicure w/o Dazzle Dry</div>
+            <div className="sub2 pPrice">$15</div>
+            <div className="sub2 pDesc">
+              A waterless manicure to avoid fungus, no color nail polish
+            </div>
+          </div>
+          <div className="PricingTableEntry">
+            <div className="sub2 pName">Regular Manicure w/ Dazzle Dry</div>
+            <div className="sub2 pPrice">$20</div>
+            <div className="sub2 pDesc">
+              A waterless manicure to avoid fungus. It uses Dazzle Dry, a non-toxic and cruelty-free nail polish that
+              dries quickly.
+            </div>
           </div>
           <div className="PricingTableEntry">
             <div className="sub2 pName">Basic Nail Art</div>
             <div className="sub2 pPrice">$80+</div>
-            {/* <div className="sub2 pDesc">
-              One to two lines per nail, dots, two simple hearts per nail, on
-              color chrome, on color cat eye, etc. (please note, I don't do
-              simple french only)
-            </div> */}
             <div className="pDesc">
               <img className="pNailImg" src={basic1} alt="pNailImg"></img>
               <img className="pNailImg" src={basic2} alt="pNailImg"></img>

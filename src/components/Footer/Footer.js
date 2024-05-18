@@ -37,7 +37,7 @@ function Footer() {
             <a className="footerHeader">Appointments</a>
             <a className="footerSub">Book Now</a>
             <a className="footerSub" onClick={() => redirect("Policies")}>
-              Store Policies
+              My Policies
             </a>
             <a className="footerSub" onClick={() => redirect("Hygienic")}>
               Hygienic Policies
@@ -59,14 +59,14 @@ function Footer() {
             <a className="footerHeader">Contact</a>
             <a
               className="footerSub"
-              href="https://www.instagram.com/bb.love.nails92/"
+              href="https://www.instagram.com/eclatnailart_/"
               target="_blank"
             >
               Instagram
             </a>
             <a
               className="footerSub"
-              href="https://www.tiktok.com/@bb.love.nails92"
+              href="https://www.tiktok.com/@eclatnailart_"
               target="_blank"
             >
               TikTok

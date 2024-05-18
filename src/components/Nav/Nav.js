@@ -68,14 +68,14 @@ function Nav() {
                 <div className="SMRow">
                   <a
                     className="NavItem SMIcon"
-                    href="https://www.instagram.com/bb.love.nails92/"
+                    href="https://www.instagram.com/eclatnailart_/"
                     target="_blank"
                   >
                     <FontAwesomeIcon icon={faInstagram} />
                   </a>
                   <a
                     className="NavItem SMIcon"
-                    href="https://www.tiktok.com/@bb.love.nails92"
+                    href="https://www.tiktok.com/@eclatnailart_"
                     target="_blank"
                   >
                     <FontAwesomeIcon icon={faTiktok} />
