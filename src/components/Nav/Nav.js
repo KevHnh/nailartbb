@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faTiktok } from "@fortawesome/free-brands-svg-icons";
 import { useNavigate } from "react-router-dom";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import logo from "../../assets/webAssets/new_logo.svg"
 
 function Nav() {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -31,10 +32,11 @@ function Nav() {
     return (
       <div className="NavContainer">
         <div className="NavWrapper">
-          <div className="NavSection">
-            <a className="NavItem logo MobileLogo" onClick={() => redirect("/")}>
+          <div className="NavSectionLeft">
+            <img className="MobileLogo" src={logo} alt="logo"></img>
+            {/* <a className="NavItem logo MobileLogo" onClick={() => redirect("/")}>
               ÉCLAT NAIL ART
-            </a>
+            </a> */}
           </div>
           <div className="NavSection">
             <a className="NavItem MobileButton" onClick={() => setMenu(!menu)}>
@@ -49,7 +51,7 @@ function Nav() {
         {menu ? (
           <div className="MobileNavContainer">
             <div className="NavWrapper">
-              <div className="NavSection">
+              <div className="NavSectionRight">
                 {/* <a className="NavItem" onClick={() => redirect("Gallery")}>
                   Gallery
                 </a> */}
@@ -94,12 +96,13 @@ function Nav() {
   return (
     <div className="NavContainer">
       <div className="NavWrapper">
-        <div className="NavSection">
-          <a className="NavItem logo" onClick={() => redirect("/")}>
+        <div className="NavSectionLeft">
+        <img className="navLogo" src={logo} alt="logo" onClick={() => redirect("/")}></img>
+          {/* <a className="NavItem logo" onClick={() => redirect("/")}>
             ÉCLAT NAIL ART
-          </a>
+          </a> */}
         </div>
-        <div className="NavSection">
+        <div className="NavSectionRight">
           {/* <a className="NavItem" onClick={() => redirect("Gallery")}>
             Gallery
           </a> */}

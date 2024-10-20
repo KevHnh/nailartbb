@@ -22,9 +22,15 @@
   border-radius: 0.5rem;
 }
 
-.NavSection {
+.NavSectionRight {
   display: flex;
   padding: 1.5rem 0rem;
+  gap: 1.5rem;
+}
+
+.NavSectionLeft {
+  display: flex;
+  /* padding: 1.5rem 0rem; */
   gap: 1.5rem;
 }
 
@@ -62,12 +68,16 @@
 .MobileLogo {
   font-size: 1.25rem !important;
   font-weight: 1000 !important;
+  width: 18%;
 }
 
 .MobileButton {
   font-size: 1.5rem !important;
 }
 
+.navLogo{
+  width: 18%;
+}
 @media screen and (max-width: 1000px) {
   .NavWrapper {
     margin: 0rem 1.5rem;

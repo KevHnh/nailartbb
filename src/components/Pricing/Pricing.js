@@ -148,13 +148,10 @@ function Pricing() {
             <div className="sub1 pDesc">DESCRIPTION</div>
           </div>
           <div className="PricingTableEntry">
-            <div className="sub2 pName">Express Pedicures w/ Dazzle Dry</div>
-            <div className="sub2 pPrice">$45</div>
+            <div className="sub2 pName">Color Change<br></br>w/ Dazzle Dry</div>
+            <div className="sub2 pPrice">$15</div>
             <div className="sub2 pDesc">
-              My signature pedicure is waterless to avoid fungus. It includes
-              cleansing with an anti-bacterial spray, nail care, foot filing,
-              and a gentle foot massage with moisturizing lotion. The final
-              touch is Dazzle Dry, a non-toxic and cruelty-free nail polish that
+              Dazzle Dry is a non-toxic and cruelty-free nail polish that
               dries quickly.
             </div>
           </div>

@@ -3,6 +3,7 @@ import "./Footer.css";
 import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram, faTiktok } from "@fortawesome/free-brands-svg-icons";
+import logo from "../../assets/webAssets/new_logo.svg"
 
 function Footer() {
   const navigate = useNavigate();
@@ -17,9 +18,10 @@ function Footer() {
       <div className="FooterWrapper">
         <div className="FooterLeft">
           <div className="FooterCol">
-            <a className="footerLogo" onClick={() => redirect("/")}>
+          <img className="footerLogo" src={logo} alt="logo" onClick={() => redirect("/")}></img>
+            {/* <a className="footerLogo" onClick={() => redirect("/")}>
               ÉCLAT NAIL ART
-            </a>
+            </a> */}
             <a
               className="footerSub"
               href="https://www.google.com/maps/place/Gowanus+Creative+Studios/@40.6727986,-73.9959817,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25b630f1104c3:0xc89630c60092af3f!8m2!3d40.6727946!4d-73.9934068!16s%2Fg%2F11gxxnr8nz?entry=ttu"

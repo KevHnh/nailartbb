@@ -89,7 +89,7 @@
   color: var(--nav);
   white-space: nowrap;
   cursor: pointer;
-  width: fit-content;
+  width: 50%;
 }
 
 .footerHeader {

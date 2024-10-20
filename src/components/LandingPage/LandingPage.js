@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router-dom";
 import Marquee from "react-fast-marquee";
+import logo from "../../assets/webAssets/new_logo.svg"
 import img1 from "../../assets/LandingImgs/nailart1.jpeg";
 import img2 from "../../assets/LandingImgs/nailart2.jpeg";
 import img3 from "../../assets/LandingImgs/nailart3.png";
@@ -44,7 +45,8 @@ function LandingPage() {
       <div className="LandingPageWrapper">
         <div className="LPSection">
           <div className="LPInner">
-            <div className="title">ÉCLAT NAIL ART</div>
+            <img className="newLogo" src={logo} alt="logo"></img>
+            {/* <div className="title">ÉCLAT NAIL ART</div> */}
             <div className="sub1">Gel X and Japanese Gel</div>
             <a className="btn" href="https://squareup.com/appointments/book/5d1fhn5lw71nrf/L3P583V5QVNBW/start" rel="nofollow" target="_blank">
               Book an Appointment
