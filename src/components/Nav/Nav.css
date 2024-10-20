@@ -66,6 +66,7 @@
 }
 
 .MobileLogo {
+  cursor: pointer;
   font-size: 1.25rem !important;
   font-weight: 1000 !important;
   width: 18%;
@@ -76,8 +77,10 @@
 }
 
 .navLogo{
+  cursor: pointer;
   width: 18%;
 }
+
 @media screen and (max-width: 1000px) {
   .NavWrapper {
     margin: 0rem 1.5rem;

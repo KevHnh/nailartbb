@@ -33,7 +33,7 @@ function Nav() {
       <div className="NavContainer">
         <div className="NavWrapper">
           <div className="NavSectionLeft">
-            <img className="MobileLogo" src={logo} alt="logo"></img>
+            <img className="MobileLogo" src={logo} alt="logo" onClick={() => redirect("/")}></img>
             {/* <a className="NavItem logo MobileLogo" onClick={() => redirect("/")}>
               ÉCLAT NAIL ART
             </a> */}
