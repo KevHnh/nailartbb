@@ -17,7 +17,7 @@ function Footer() {
     <div className="FooterContainer">
       <div className="FooterWrapper">
         <div className="FooterLeft">
-          <div className="FooterCol">
+          <div className="FooterCol FooterS1">
           <img className="footerLogo" src={logo} alt="logo" onClick={() => redirect("/")}></img>
             {/* <a className="footerLogo" onClick={() => redirect("/")}>
               ÉCLAT NAIL ART

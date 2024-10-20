@@ -46,7 +46,7 @@ function LandingPage() {
         <div className="LPSection">
           <div className="LPInner">
             <img className="newLogo" src={logo} alt="logo"></img>
-            {/* <div className="title">ÉCLAT NAIL ART</div> */}
+            <div className="hidden">ÉCLAT NAIL ART</div>
             <div className="sub1">Gel X and Japanese Gel</div>
             <a className="btn" href="https://squareup.com/appointments/book/5d1fhn5lw71nrf/L3P583V5QVNBW/start" rel="nofollow" target="_blank">
               Book an Appointment

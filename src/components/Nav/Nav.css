@@ -114,6 +114,10 @@
     width: 100%;
   }
 
+  .NavSectionRight {
+    flex-direction: column;
+  }
+
   .MobileNavContainer .NavWrapper .NavSection .NavItem {
     padding: 0.5rem 0rem;
   }
@@ -135,6 +139,6 @@
   .SMRow {
     width: 8rem !important;
     display: flex;
-    gap: 0rem;
+    gap: 1rem;
   }
 }

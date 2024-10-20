@@ -10,6 +10,11 @@
   overflow-x: hidden;
 }
 
+.hidden {
+  position: absolute;
+  font-size: 0px;
+}
+
 .LandingPageWrapper {
   position: relative;
   width: 100%;
