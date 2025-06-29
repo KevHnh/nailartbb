@@ -29,19 +29,15 @@ function Pricing() {
         </div>
         <div className="header">Gel Manicures</div>
         <div className="sub2">
-          The gel manicures are performed on your natural nail with a waterless
-          manicure. It includes nail shaping and Russian Cuticle Care. If your
-          preference is to just push back the cuticle, please let me know.
-          Products used are from{" "}
-          <a
-            href="https://kokoistusa.com/pages/what-is-japanese-gel"
-            target="_blank"
-            className="sub2"
-          >
-            Kokoist
-          </a>
-          , a japanese brand that is vegan and 9-free non toxic. Extensions are
-          an add on option for $20.
+          Gel manicures are performed on your natural nails using a waterless manicure technique. This service includes nail shaping and Russian Cutice Care. If you prefer only a cuticle pushback, please let me know. I use {" "}
+            <a
+              href="https://kokoistusa.com/pages/what-is-japanese-gel"
+              target="_blank"
+              className="sub2"
+            >
+              Kokoist
+            </a>
+          products, a vegan and 9-free non-toxic Japanese brand. 
         </div>
         <div className="PricingTableContainer">
           <div className="PricingTableHeaderMobile">
@@ -51,21 +47,6 @@ function Pricing() {
             <div className="sub1 pName">TIER</div>
             <div className="sub1 pPrice">STARTING PRICE</div>
             <div className="sub1 pDesc">DESCRIPTIONS</div>
-          </div>
-          <div className="PricingTableEntry">
-            <div className="sub2 pName">Regular Manicure w/o Dazzle Dry</div>
-            <div className="sub2 pPrice">$15</div>
-            <div className="sub2 pDesc">
-              A waterless manicure to avoid fungus, no color nail polish
-            </div>
-          </div>
-          <div className="PricingTableEntry">
-            <div className="sub2 pName">Regular Manicure w/ Dazzle Dry</div>
-            <div className="sub2 pPrice">$20</div>
-            <div className="sub2 pDesc">
-              A waterless manicure to avoid fungus. It uses Dazzle Dry, a non-toxic and cruelty-free nail polish that
-              dries quickly.
-            </div>
           </div>
           <div className="PricingTableEntry">
             <div className="sub2 pName">Basic Nail Art</div>
