@@ -25,7 +25,7 @@ function Pricing() {
       <div className="GlobalWrapper">
         <div class="sub2">
           A $40 deposit through Zelle is required in order to hold your
-          appointment. Deposits are made out to denisse_15_ms@hotmail.com
+          appointment. Deposits are made out to denisse.enriquez218@gmail.com
         </div>
         <div className="header">Gel Manicures</div>
         <div className="sub2">
@@ -136,25 +136,6 @@ function Pricing() {
             bb.love.nails92@gmail.com
           </a>{" "}
           and I will gladly help.
-        </div>
-        <div className="header">Pedicures</div>
-        <div className="PricingTableContainer">
-          <div className="PricingTableHeaderMobile">
-            <div className="sub1">SERVICE | STARTING PRICE | DESCRIPTION</div>
-          </div>
-          <div className="PricingTableHeader">
-            <div className="sub1 pName">SERVICE</div>
-            <div className="sub1 pPrice">STARTING PRICE</div>
-            <div className="sub1 pDesc">DESCRIPTION</div>
-          </div>
-          <div className="PricingTableEntry">
-            <div className="sub2 pName">Color Change<br></br>w/ Dazzle Dry</div>
-            <div className="sub2 pPrice">$15</div>
-            <div className="sub2 pDesc">
-              Dazzle Dry is a non-toxic and cruelty-free nail polish that
-              dries quickly.
-            </div>
-          </div>
         </div>
         <div className="header">Extras</div>
         <div className="PricingTableContainer">
