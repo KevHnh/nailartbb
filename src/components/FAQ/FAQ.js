@@ -23,7 +23,7 @@ function FAQ() {
             <div className="sub1">WHAT IS JAPANESE GEL?</div>
             <div className="sub2">100% Gel, None of the Other Stuff</div>
             <div className="sub2">
-              100% Gel, None of the other stuff.<br></br>Japanese gels are true gels (not gel polish), meaning they aren't diluted with nail polish. This makes them highly pigmented and incredibly durable. Unlike gel polish, which must be soaked off with acetone after each service, Japanese gel can be soaked off or filled in, depending on your preference. Japanese gels are versatile, perfect for both nail art and full applications 
+              Japanese gels are true gels (not gel polish), meaning they aren't diluted with nail polish. This makes them highly pigmented and incredibly durable. Unlike gel polish, which must be soaked off with acetone after each service, Japanese gel can be soaked off or filled in, depending on your preference. Japanese gels are versatile, perfect for both nail art and full applications 
             </div>
           </div>
           <div className="FAQEntry">
@@ -57,7 +57,7 @@ function FAQ() {
           <div className="FAQEntry">
             <div className="sub1">HOW LONG DOES THE APPOINTMENT TAKE?</div>
             <div className="sub2">
-              The time required for your appointment depends on the shape, length, and design of your nails. I typically book two and a half hours for a full set, depending on the complexity of the art. For a gel fill with nail art, the appointment generally lasts around 2 hours, depending on the intricacy of the design. Fills take less time since theres already product on the nails from your previous appointment. <br></br> Good nails take time and attention to detail, and I take pride in the work I create. Please be sure to allow enough time in your schedule for your appointment 
+              The time required for your appointment depends on the shape, length, and design of your nails. I typically book two and a half hours for a full set, depending on the complexity of the art. For a gel fill with nail art, the appointment generally lasts around 2 hours, depending on the intricacy of the design. Fills take less time since theres already product on the nails from your previous appointment. <br></br><br></br>Good nails take time and attention to detail, and I take pride in the work I create. Please be sure to allow enough time in your schedule for your appointment 
             </div>
           </div>
           <div className="FAQEntry">

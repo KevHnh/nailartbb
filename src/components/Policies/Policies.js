@@ -17,129 +17,88 @@ function Policies() {
           <div className="PoliciesEntry">
             <div className="sub1">MANDATORY DEPOSIT POLICY</div>
             <div className="sub2">
-              A $40 deposit through Zelle is required in order to hold your
-              appointment. Deposits are made out to denisse_15_ms@hotmail.com
-            </div>
-          </div>
-          <div className="PoliciesEntry">
-            <div className="sub1">THIRD PARTY WORK</div>
-            <div className="sub2">
-              To guarantee retention and quality of the final set, I do not
-              offer fills or removals on work done by another salon.<br></br>
-              Please come with bare nails!
+            A $40 Zelle deposit is required to secure your appointment. I will email you details regarding the deposit after the appointment is made 
             </div>
           </div>
           <div className="PoliciesEntry">
             <div className="sub1">LATENESS POLICY</div>
             <div className="sub2">
-              Appointments are booked back to back in a time sensitive manner.
-              Therefore, late arrivals of 10 minutes or more may result in
-              rescheduling, or adjusting the service altogether.
+              Appointments are scheduled back-to-back and follow a time-sensitive structure. Late arrivals of 10 minutes or more may result in a rescheduling or a modification of your service 
             </div>
             <div className="sub2">
-              If it is your first time coming, please make yourself familiar with
-              the area and/or transportation routes before your appointment. I
-              understand that situations may arise, but it will be up to my
-              discretion if the service can be completed in the event that you
-              are over 10 minutes late.
+              If this is your first visit, please take time to familiarize yourself with the area and plan your route in advance. While I understand that delays can happen, it is at my discretion whether the service can still be completed if you arrive more than 10 minutes late 
             </div>
             <div className="sub2">
-              I cannot guarantee your service can be completed if you are late,
-              if this is the case you will need to reschedule your appointment
-              and will be charged the full price for the service missed. If you
-              are going to be late, PLEASE LET ME KNOW AS EARLY AS POSSIBLE by
-              emailing me at {" "}
-          <a
-            className="sub2"
-            href="mailto:bb.love.nails92@gmail.com"
-            target="_blank"
-          >
-            bb.love.nails92@gmail.com
-          </a>{"."}
-            </div>
-          </div>
-          <div className="PoliciesEntry">
-            <div className="sub1">CHILDREN POLICY</div>
-            <div className="sub2">
-              Please find arrangements for childcare. Do not bring your
-              child/children to your scheduled appointment. My studio is
-              equipped with chemicals, sensitive equipment, and small objects
-              that are not safe or appropiate for children to be around. If you
-              bring your child, your appointment will be cancelled on the spot
-              and you will not recieve your deposit back. It will count as a "no
-              show" for the service missed.
+              Please note: I cannot guarantee your service if you arrive late. If you arrive more than 10 minutes late, you will have the option of forfeiting your appointment or getting a one color manicure 
+            <br></br><br></br>
+              If you anticipate being late, please notify me as early as possible by emailing: 
+              <a
+                className="sub2"
+                href="mailto:bb.love.nails92@gmail.com"
+                target="_blank"
+              >
+                bb.love.nails92@gmail.com
+              </a>
+              or by messaging me on Instagram
             </div>
           </div>
           <div className="PoliciesEntry">
             <div className="sub1">REFUND POLICY</div>
             <div className="sub2">
-              I have a “no refund policy” on services completed in the salon.
-              However, if for any reason you are unhappy with the service you
-              received, please notify me immediately! I would be more than happy
-              to make the matter right, either by fixing, or correcting a
-              service. I offer complimentary fixes within 48 hours of
-              completion.
-            </div>
-          </div>
-          <div className="PoliciesEntry">
-            <div className="sub1">DISCLAIMER</div>
-            <div className="sub2">
-              I RESERVE THE RIGHT TO REFUSE SERVICE FOR ANY REASON, INCLUDING
-              BUT NOT LIMITED TO, FREQUENT CANCELLATIONS, NO SHOWS, AND FAILURE
-              TO COMPLY WITH THE POLICIES I HAVE IN PLACE FOR MY BUSINESS. I
-              GREATLY APPRECIATE YOUR UNDERSTANDING AND COOPERATION WITH MY
-              POLICIES.
-            </div>
-          </div>
-          <div className="PoliciesEntry">
-            <div className="sub1">SALON ENTRY POLICY</div>
-            <div className="sub2">
-              My nail studio is located at 117 9th st, suite 239, Brooklyn Ny
-              11215. There is a code that will be emailed to you on the day of
-              the appointment (this code changes daily). I try to create a
-              pleasant ambience in the studio and cater to your mood. If you
-              feel like chatting I would love to get to know you better. If this
-              is your down time and you prefer quiet, or to listen to a podcast
-              or music, I offer “silent appointments”. Whatever get you the most
-              comfortable, I am happy to accommodate.
-            </div>
-          </div>
-          <div className="PoliciesEntry">
-            <div className="sub1">NEW CLIENT INQUIRY FORM</div>
-            <div className="sub2">
-              Thank you so much for your interest in booking with me! If you
-              have been wanting a nail set from me in the past when my books
-              were closed, now is your chance! I will be working part time doing
-              nails in my studio. My schedule is monday through Friday. First
-              appointments at 2:30pm and last appointment of the day is booked
-              at 5pm • My ideal client would be individuals who are interested
-              in some form of nail art each service, fromsimple to extreme.
-
-              ^ diff hours needs to be fixed ^
+              I have a no refund policy on services completed in the salon. However, your satisfaction is very important to me! If you're unhappy with your service for any reason, please let me know right away—I'm more than happy to make it right 
+              <br></br><br></br>
+              Complimentary fixes are offered within 48 hours of your appointment 
             </div>
           </div>
           <div className="PoliciesEntry">
             <div className="sub1">HOW TO BOOK AN APPOINTMENT</div>
             <div className="sub2">
-              You can message me on IG:{" "}
+              You can contact me via Instagram at {" "}
               <a
                 className="sub2"
-                href="https://www.instagram.com/bb.love.nails92/"
+                href="https://www.instagram.com/eclatnailart_/"
                 target="_blank"
               >
-                @bb.love.nails92
+                @eclatnailart_
               </a>{" "}
-              or through the website.
+              or through the website linked in my bio. Before reaching out, please review the Price List and Policy highlights. If you still have questions, feel free to send me a DM with your first name, last name, and your inquiry 
+            </div>
+          </div>
+          <div className="PoliciesEntry">
+            <div className="sub1">DISCLAIMER</div>
+            <div className="sub2">
+              I reserve the right to refuse service for any reason, including but not limited to frequent cancellations, no-shows, or failure to comply with the policies I have established for my business. Your understanding and cooperation are sincerely appreciated 
+            </div>
+          </div>
+          <div className="PoliciesEntry">
+            <div className="sub1">SALON ENTRY POLICY</div>
+            <div className="sub2">
+              My studio is located at 117 9th St, Suite 239, Brooklyn, NY 11215. You'll receive a unique entry code by email on the day of your appointment. 
             </div>
             <div className="sub2">
-              Before inquiring, please review my price lists, policies, and
-              check my highlights on instagram, for answers to any questions you
-              may have about the nail art tiers.
+              I aim to make your visit as comfortable as possible. Whether you feel like chatting or prefer a quiet "silent appointment", I'm happy to match your vibe. 
+            </div>
+          </div>
+          <div className="PoliciesEntry">
+            <div className="sub1">CHILDREN POLICY</div>
+            <div className="sub2">
+              For the safety of your child and the comfort of all clients, please make childcare arrangements ahead of time. Children are not permitted in the studio during appointments 
             </div>
             <div className="sub2">
-              In the message please include first name, last name, and your
-              question.
+              The studio contains chemicals, delicate tools, and small objects that are not safe for children. If you arrive with a child, your appointment will be canceled immediately, your deposit will be forfeited, and it will be considered a no-show 
             </div>
+          </div>
+          <div className="PoliciesEntry">
+            <div className="sub1">THIRD PARTY WORK</div>
+            <div className="sub2">
+              To ensure the best quality and long-lasting results, please note that I do not remove acrylic or dip powder. These must be fully removed prior to your appointment 
+            </div>
+          </div>
+          <div className="PoliciesEntry">
+            <div className="sub1">THANK YOU!</div>
+              <div className="sub2">
+              Thank you for your understanding and respect for these policies. I truly appreciate your cooperation and look forward to providing you with a great experience at my studio!
+              </div>
           </div>
         </div>
       </div>
