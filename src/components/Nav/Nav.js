@@ -116,7 +116,7 @@ function Nav() {
             Policies
           </a>
           <a className="NavItem" onClick={() => redirect("Hygienic")}>
-            Hygienic
+            Sanitary Protocols
           </a>
           <a
             className="NavItem SMIcon"
