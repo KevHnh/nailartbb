@@ -28,17 +28,20 @@ function Pricing() {
           appointment. Deposits are made out to denisse.enriquez218@gmail.com
         </div>
         <div className="header">Gel Manicures</div>
-        <div className="sub2">
-          Gel manicures are performed on your natural nails using a waterless manicure technique. This service includes nail shaping and Russian Cutice Care. If you prefer only a cuticle pushback, please let me know. I use {" "}
-            <a
-              href="https://kokoistusa.com/pages/what-is-japanese-gel"
-              target="_blank"
-              className="sub2"
-            >
-              Kokoist
-            </a>
-          products, a vegan and 9-free non-toxic Japanese brand. 
-        </div>
+          <div className="sub2">
+            Gel manicures are performed on your natural nails using a waterless manicure technique. This service includes nail shaping and Russian Cutice Care. If you prefer only a cuticle pushback, please let me know. I use {" "}
+              <a
+                href="https://kokoistusa.com/pages/what-is-japanese-gel"
+                target="_blank"
+                className="sub2"
+              >
+                Kokoist
+              </a>
+            products, a vegan and 9-free non-toxic Japanese brand. 
+          </div>
+          <div class="sub2">
+            Extensions are available as an add-on for $20
+          </div>
         <div className="PricingTableContainer">
           <div className="PricingTableHeaderMobile">
             <div className="sub1">TIER | STARTING PRICE | DESCRIPTIONS</div>
@@ -140,6 +143,13 @@ function Pricing() {
             <div className="sub2 pPrice">$10</div>
             <div className="sub2 pDesc">
               There will be an additional charge for any broken nails.
+            </div>
+          </div>
+          <div className="PricingTableEntry">
+            <div className="sub2 pName">Third Party Nail Removal</div>
+            <div className="sub2 pPrice">$10</div>
+            <div className="sub2 pDesc">
+              Removal of other salons' work, I will not remove acrylic or dip powder
             </div>
           </div>
         </div>
