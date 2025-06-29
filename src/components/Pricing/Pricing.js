@@ -102,7 +102,7 @@ function Pricing() {
 
           <div className="PricingTableEntry">
             <div className="sub2 pName">Extravagant Nail Art</div>
-            <div className="sub2 pPrice">$160+</div>
+            <div className="sub2 pPrice">$180+</div>
             <div className="sub2 pDesc">
               <img className="pNailImg" src={extravagant1} alt="pNailImg"></img>
               <img className="pNailImg" src={extravagant2} alt="pNailImg"></img>
