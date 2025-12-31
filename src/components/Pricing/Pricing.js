@@ -42,6 +42,12 @@ function Pricing() {
           <div class="sub2">
             Extensions are available as an add-on for $20
           </div>
+          <div className="sub1">Artists' Choice</div>
+          <div class="sub2">
+            A bespoke nail experience curated entirely by me. Design, color palette, and detailing are thoughtfully selected to complement your nail shape, skin tone, and personal aesthetic.
+            <br></br>
+            Clients may request general preferences (e.g. light/dark, bold/neutral).
+          </div>
         <div className="PricingTableContainer">
           <div className="PricingTableHeaderMobile">
             <div className="sub1">TIER | STARTING PRICE | DESCRIPTIONS</div>
@@ -53,7 +59,7 @@ function Pricing() {
           </div>
           <div className="PricingTableEntry">
             <div className="sub2 pName">Basic Nail Art</div>
-            <div className="sub2 pPrice">$80+</div>
+            <div className="sub2 pPrice">$90+</div>
             <div className="pDesc">
               <img className="pNailImg" src={basic1} alt="pNailImg"></img>
               <img className="pNailImg" src={basic2} alt="pNailImg"></img>
@@ -62,7 +68,7 @@ function Pricing() {
           </div>
           <div className="PricingTableEntry">
             <div className="sub2 pName">Intermediate Nail Art</div>
-            <div className="sub2 pPrice">$100+</div>
+            <div className="sub2 pPrice">$110+</div>
             <div className="sub2 pDesc">
               <img
                 className="pNailImg"
@@ -83,7 +89,7 @@ function Pricing() {
           </div>
           <div className="PricingTableEntry">
             <div className="sub2 pName">Advanced Nail Art</div>
-            <div className="sub2 pPrice">$120+</div>
+            <div className="sub2 pPrice">$130+</div>
             <div className="sub2 pDesc">
               <img className="pNailImg" src={advanced1} alt="pNailImg"></img>
               <img className="pNailImg" src={advanced2} alt="pNailImg"></img>
@@ -92,7 +98,7 @@ function Pricing() {
           </div>
           <div className="PricingTableEntry">
             <div className="sub2 pName">Intricate Nail Art</div>
-            <div className="sub2 pPrice">$140+</div>
+            <div className="sub2 pPrice">$150+</div>
             <div className="sub2 pDesc">
               <img className="pNailImg" src={intricate1} alt="pNailImg"></img>
               <img className="pNailImg" src={intricate2} alt="pNailImg"></img>
@@ -102,7 +108,7 @@ function Pricing() {
 
           <div className="PricingTableEntry">
             <div className="sub2 pName">Extravagant Nail Art</div>
-            <div className="sub2 pPrice">$160+</div>
+            <div className="sub2 pPrice">$170+</div>
             <div className="sub2 pDesc">
               <img className="pNailImg" src={extravagant1} alt="pNailImg"></img>
               <img className="pNailImg" src={extravagant2} alt="pNailImg"></img>
