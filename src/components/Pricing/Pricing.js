@@ -42,13 +42,6 @@ function Pricing() {
           <div class="sub2">
             Extensions are available as an add-on for $20
           </div>
-          <div className="sub1">Artists' Choice ~ $120</div>
-          <div class="sub2">
-            A bespoke nail experience curated entirely by me. Design, color palette, and detailing are thoughtfully selected to complement your nail shape, skin tone, and personal aesthetic.
-          </div>
-          <div class="sub2">
-            Clients may request general preferences (e.g. light/dark, bold/neutral).
-          </div>
         <div className="PricingTableContainer">
           <div className="PricingTableHeaderMobile">
             <div className="sub1">TIER | STARTING PRICE | DESCRIPTIONS</div>
@@ -127,6 +120,13 @@ function Pricing() {
             bb.love.nails92@gmail.com
           </a>{" "}
           and I will gladly help.
+        </div>
+        <div className="sub1">Artists' Choice ~ $120</div>
+        <div class="sub2">
+          A bespoke nail experience curated entirely by me. Design, color palette, and detailing are thoughtfully selected to complement your nail shape, skin tone, and personal aesthetic.
+        </div>
+        <div class="sub2">
+          Clients may request general preferences (e.g. light/dark, bold/neutral).
         </div>
         <div className="header">Extras</div>
         <div className="PricingTableContainer">
